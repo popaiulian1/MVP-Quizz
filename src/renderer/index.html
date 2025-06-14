@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="quiz-container">
+            <div id="quiz-header">
+                <h1>MVP Quiz</h1>
+                <div id="progress">
+                    <span id="question-counter">Question 1 of 10</span>
+                    <span id="score">Score: 0</span>
+                </div>
+            </div>
+
+            <div id="question-container">
+                <h2 id="question-text">Loading question...</h2>
+                <div id="answers-container"></div>
+            </div>
+
+            <div id="controls">
+                <button id="next-btn" disabled>Next Question</button>
+                <button id="finish-btn" style="display: none;">Finish Quiz</button>
+            </div>
+        </div>
+
+        <div id="results-container" style="display: none;">
+            <h2>Quiz Complete!</h2>
+            <p id="final-score"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>

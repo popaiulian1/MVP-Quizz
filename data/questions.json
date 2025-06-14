@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "answers": {
+        "a)": "London",
+        "b)": "Berlin",
+        "c)": "Paris",
+        "d)": "Madrid"
+      },
+      "correct": ["c)"]
+    },
+    {
+      "question": "Which programming languages are used for web development? (Select all that apply)",
+      "answers": {
+        "a)": "JavaScript",
+        "b)": "Python",
+        "c)": "HTML",
+        "d)": "CSS"
+      },
+      "correct": ["a)", "c)", "d)"]
+    },
+    {
+      "question": "What is 2 + 2?",
+      "answers": {
+        "a)": "3",
+        "b)": "4",
+        "c)": "5",
+        "d)": "6"
+      },
+      "correct": ["b)"]
+    }
+  ]
+}

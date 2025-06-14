@@ -1,0 +1,59 @@
+{
+    "name": "mvp-quizz",
+    "version": "1.0.0",
+    "description": "A simple quiz application for MVP Exam by Popa Marian-Iulian",
+    "author": "Popa Marian-Iulian",
+    "main": "dist/main/main.js",
+    "homepage": "./",
+    "scripts": {
+        "build": "tsc && tsc -p tsconfig.renderer.json",
+        "copy-assets": "if not exist dist\\renderer mkdir dist\\renderer && xcopy src\\renderer\\*.html dist\\renderer\\ /Y && xcopy src\\renderer\\*.css dist\\renderer\\ /Y",
+        "build-all": "npm run build && npm run copy-assets",
+        "start": "npm run build-all && electron dist/main/main.js",
+        "dev": "npm run build-all && electron dist/main/main.js",
+        "pack": "npm run build-all && electron-builder",
+        "dist": "npm run build-all && electron-builder --publish=never",
+        "dist-win": "npm run build-all && electron-builder --win",
+        "clean": "if exist dist rmdir /s /q dist"
+    },
+    "devDependencies": {
+        "@types/node": "^20.19.0",
+        "electron": "^27.0.0",
+        "electron-builder": "^24.0.0",
+        "typescript": "^5.0.0"
+    },
+    "build": {
+        "appId": "com.marianilulian.mvp-quizz",
+        "productName": "MVP Quiz",
+        "copyright": "Copyright © 2024 Popa Marian-Iulian",
+        "directories": {
+            "output": "build",
+            "buildResources": "assets"
+        },
+        "files": [
+            "dist/**/*",
+            "data/**/*",
+            "node_modules/**/*"
+        ],
+        "win": {
+            "target": [
+                {
+                    "target": "nsis",
+                    "arch": ["x64"]
+                }
+            ],
+            "icon": "assets/icon.ico",
+            "publisherName": "Popa Marian-Iulian"
+        },
+        "nsis": {
+            "oneClick": false,
+            "allowToChangeInstallationDirectory": true,
+            "createDesktopShortcut": true,
+            "createStartMenuShortcut": true,
+            "shortcutName": "MVP Quiz"
+        },
+        "portable": {
+            "artifactName": "MVP-Quiz-Portable.exe"
+        }
+    }
+}
