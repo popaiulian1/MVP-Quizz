@@ -1,32 +1,152 @@
 {
   "questions": [
     {
-      "question": "What is the capital of France?",
+      "question": "In which year did World War II end?",
       "answers": {
-        "a)": "London",
-        "b)": "Berlin",
-        "c)": "Paris",
-        "d)": "Madrid"
+        "a)": "1944",
+        "b)": "1945",
+        "c)": "1946",
+        "d)": "1947"
+      },
+      "correct": ["b)"]
+    },
+    {
+      "question": "Which of the following were Allied Powers during World War II?",
+      "answers": {
+        "a)": "United States",
+        "b)": "Soviet Union",
+        "c)": "Germany",
+        "d)": "United Kingdom"
+      },
+      "correct": ["a)", "b)", "d)"]
+    },
+    {
+      "question": "Who was the first President of the United States?",
+      "answers": {
+        "a)": "Thomas Jefferson",
+        "b)": "John Adams",
+        "c)": "George Washington",
+        "d)": "Benjamin Franklin"
       },
       "correct": ["c)"]
     },
     {
-      "question": "Which programming languages are used for web development? (Select all that apply)",
+      "question": "Which ancient civilizations built pyramids?",
       "answers": {
-        "a)": "JavaScript",
-        "b)": "Python",
-        "c)": "HTML",
-        "d)": "CSS"
+        "a)": "Greeks",
+        "b)": "Maya",
+        "c)": "Egyptians",
+        "d)": "Aztecs"
+      },
+      "correct": ["b)", "c)", "d)"]
+    },
+    {
+      "question": "The French Revolution began in which year?",
+      "answers": {
+        "a)": "1789",
+        "b)": "1792",
+        "c)": "1776",
+        "d)": "1804"
+      },
+      "correct": ["a)"]
+    },
+    {
+      "question": "Which of these were major battles of World War I?",
+      "answers": {
+        "a)": "Battle of Verdun",
+        "b)": "Battle of Midway",
+        "c)": "Battle of the Somme",
+        "d)": "Battle of Gettysburg"
+      },
+      "correct": ["a)", "c)"]
+    },
+    {
+      "question": "Which empire was ruled by Julius Caesar?",
+      "answers": {
+        "a)": "Greek Empire",
+        "b)": "Egyptian Empire",
+        "c)": "Roman Empire",
+        "d)": "Persian Empire"
+      },
+      "correct": ["c)"]
+    },
+    {
+      "question": "Which explorers reached the Americas before 1600?",
+      "answers": {
+        "a)": "James Cook",
+        "b)": "Christopher Columbus",
+        "c)": "Amerigo Vespucci",
+        "d)": "Vasco da Gama"
+      },
+      "correct": ["b)", "c)"]
+    },
+    {
+      "question": "The Berlin Wall fell in which year?",
+      "answers": {
+        "a)": "1987",
+        "b)": "1989",
+        "c)": "1991",
+        "d)": "1993"
+      },
+      "correct": ["b)"]
+    },
+    {
+      "question": "Which countries were founding members of NATO in 1949?",
+      "answers": {
+        "a)": "United States",
+        "b)": "Soviet Union",
+        "c)": "United Kingdom",
+        "d)": "Canada"
       },
       "correct": ["a)", "c)", "d)"]
     },
     {
-      "question": "What is 2 + 2?",
+      "question": "Who painted the ceiling of the Sistine Chapel?",
       "answers": {
-        "a)": "3",
-        "b)": "4",
-        "c)": "5",
-        "d)": "6"
+        "a)": "Leonardo da Vinci",
+        "b)": "Raphael",
+        "c)": "Michelangelo",
+        "d)": "Donatello"
+      },
+      "correct": ["c)"]
+    },
+    {
+      "question": "Which revolutions occurred in the 18th century?",
+      "answers": {
+        "a)": "American Revolution",
+        "b)": "Russian Revolution",
+        "c)": "French Revolution",
+        "d)": "Industrial Revolution"
+      },
+      "correct": ["a)", "c)", "d)"]
+    },
+    {
+      "question": "The Titanic sank in which year?",
+      "answers": {
+        "a)": "1910",
+        "b)": "1912",
+        "c)": "1914",
+        "d)": "1916"
+      },
+      "correct": ["b)"]
+    },
+    {
+      "question": "Which ancient Greek philosophers were students of Socrates?",
+      "answers": {
+        "a)": "Aristotle",
+        "b)": "Plato",
+        "c)": "Pythagoras",
+        "d)": "Xenophon"
+      },
+      "correct": ["b)", "d)"]
+    },
+    {
+      "question": "Who was known as the 'Iron Lady'?",
+      "answers": {
+        "a)": "Queen Elizabeth II",
+        "b)": "Margaret Thatcher",
+        "c)": "Golda Meir",
+        "d)": "Indira Gandhi"
       },
       "correct": ["b)"]
     }

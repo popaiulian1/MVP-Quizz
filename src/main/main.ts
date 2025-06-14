@@ -16,8 +16,10 @@ function createWindow(): void {
             allowRunningInsecureContent: true
         },
         show: false,
-        icon: path.join(__dirname, '../../assets/icon.ico') // Optional: remove if no icon
+        icon: path.join(__dirname, '../../assets/icon.ico')
     });
+
+    mainWindow.setMenuBarVisibility(false);
     
     mainWindow.once('ready-to-show', () => {
         if (mainWindow) {

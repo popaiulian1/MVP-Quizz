@@ -66,6 +66,7 @@ class QuizApp {
             
             if (this.quizData.questions && this.quizData.questions.length > 0) {
                 console.log('Questions found:', this.quizData.questions.length);
+                this.shuffleQuestions();
                 this.setupLandingPage();
             } else {
                 console.error('No questions in data:', this.quizData);
@@ -77,6 +78,15 @@ class QuizApp {
             this.elements.totalQuestionsSpan.textContent = 'Error loading questions';
             this.elements.startQuizBtn.innerHTML = '<span class="btn-text">Error loading quiz</span>';
         }
+    }
+
+    private shuffleQuestions(): void {
+        for (let i = this.quizData.questions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [this.quizData.questions[i], this.quizData.questions[j]] = 
+            [this.quizData.questions[j], this.quizData.questions[i]];
+        }
+        console.log('Questions shuffled');
     }
 
     private setupLandingPage(): void {
