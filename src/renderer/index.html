@@ -10,7 +10,32 @@
 
 <body>
     <div id="app">
-        <div id="quiz-container">
+        <div id="landing-container">
+            <div id="landing-header">
+                <h1>MVP Quiz</h1>
+                <p class="subtitle">Esti gata de examen?</p>
+            </div>
+            
+            <div id="landing-content">
+                <div class="welcome-card">
+                    <div class="quiz-info">
+                        <div class="info-item">
+                            <span class="info-icon">📝</span>
+                            <span class="info-text">Total Questions:</span>
+                            <span id="total-questions">Loading questions...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="landing-controls">
+                        <button id="start-quiz-btn" class="primary-btn" disabled>
+                            <span class="btn-text">Loading...</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz-container" style="display: none;">
             <div id="quiz-header">
                 <h1>MVP Quiz</h1>
                 <div id="progress">
@@ -30,9 +55,11 @@
             </div>
         </div>
 
+        <!-- Results Container -->
         <div id="results-container" style="display: none;">
             <h2>Quiz Complete!</h2>
             <p id="final-score"></p>
+            <br>
             <button id="restart-btn">Restart Quiz</button>
         </div>
     </div>
