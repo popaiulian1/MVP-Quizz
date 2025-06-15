@@ -205,6 +205,9 @@ body {
     gap: 15px;
     width: 100%;
     max-width: 650px;
+    max-height: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .answer-option {
