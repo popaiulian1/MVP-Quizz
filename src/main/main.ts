@@ -1,7 +1,7 @@
 import { app, BrowserWindow, ipcMain } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
-import { QuizData } from '../types/quiz';
+import { QuizData } from '../types/types';
 
 let mainWindow: BrowserWindow | null;
 
@@ -32,10 +32,8 @@ function createWindow(): void {
     
     mainWindow.loadFile(indexPath);
     
-    // Only open DevTools in development
-    if (process.env.NODE_ENV === 'development') {
-        mainWindow.webContents.openDevTools();
-    }
+    // Always open DevTools for debugging
+    // mainWindow.webContents.openDevTools();
 
     mainWindow.on('closed', () => {
         mainWindow = null;

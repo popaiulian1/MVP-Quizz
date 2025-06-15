@@ -1,154 +1,3584 @@
 {
-  "questions": [
-    {
-      "question": "In which year did World War II end?",
-      "answers": {
-        "a)": "1944",
-        "b)": "1945",
-        "c)": "1946",
-        "d)": "1947"
+    "Noutati in .NET": {
+    "questions": [
+      {
+        "question": "O componenta COM poate fi folosita de catre o componenta .NET",
+        "answers": {
+          "a)": "Adevarat",
+          "b)": "Fals"
+        },
+        "correct": [
+          "a)"
+        ]
       },
-      "correct": ["b)"]
-    },
-    {
-      "question": "Which of the following were Allied Powers during World War II?",
-      "answers": {
-        "a)": "United States",
-        "b)": "Soviet Union",
-        "c)": "Germany",
-        "d)": "United Kingdom"
+      {
+        "question": "O componenta .NET poate fi folosita de catre o componenta COM",
+        "answers": {
+          "a)": "Adevarat",
+          "b)": "Fals"
+        },
+        "correct": [
+          "a)"
+        ]
       },
-      "correct": ["a)", "b)", "d)"]
-    },
-    {
-      "question": "Who was the first President of the United States?",
-      "answers": {
-        "a)": "Thomas Jefferson",
-        "b)": "John Adams",
-        "c)": "George Washington",
-        "d)": "Benjamin Franklin"
+      {
+        "question": "Pentru codul Person p=new Person(FirstName=\"Rafael\"); FirstName poate fi:",
+        "answers": {
+          "a)": "Camp public",
+          "b)": "Camp private",
+          "c)": "Proprietatile public doar write-only",
+          "d)": "Proprietate auto-implementata",
+          "e)": "Camp public readonly"
+        },
+        "correct": [
+          "d)"
+        ]
       },
-      "correct": ["c)"]
-    },
-    {
-      "question": "Which ancient civilizations built pyramids?",
-      "answers": {
-        "a)": "Greeks",
-        "b)": "Maya",
-        "c)": "Egyptians",
-        "d)": "Aztecs"
+      {
+        "question": "Care dintre urmatoarele sunt corecte?",
+        "answers": {
+          "a)": "System.single?x=null",
+          "b)": "System.Float?x=null",
+          "c)": "String k=null",
+          "d)": "String?x=null",
+          "e)": "System.Single=null",
+          "f)": "System.Float=null"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
       },
-      "correct": ["b)", "c)", "d)"]
-    },
-    {
-      "question": "The French Revolution began in which year?",
-      "answers": {
-        "a)": "1789",
-        "b)": "1792",
-        "c)": "1776",
-        "d)": "1804"
+      {
+        "question": "Cum este linia: int? i=null",
+        "answers": {
+          "a)": "Eroare la compilare",
+          "b)": "Corecta la compilare, eroare la rulare",
+          "c)": "Eroare si la compilare si la rulare",
+          "d)": "Corecta"
+        },
+        "correct": [
+          "d)"
+        ]
       },
-      "correct": ["a)"]
-    },
-    {
-      "question": "Which of these were major battles of World War I?",
-      "answers": {
-        "a)": "Battle of Verdun",
-        "b)": "Battle of Midway",
-        "c)": "Battle of the Somme",
-        "d)": "Battle of Gettysburg"
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "Codul unmanaged poate fi apelat din context managed",
+          "b)": "Codul unmanaged nu poate fi apelat din context managed",
+          "c)": "Componentele .NET pot fi folosite din component COM",
+          "d)": "Componentele .NET nu pot fi folosite din component COM"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
       },
-      "correct": ["a)", "c)"]
-    },
-    {
-      "question": "Which empire was ruled by Julius Caesar?",
-      "answers": {
-        "a)": "Greek Empire",
-        "b)": "Egyptian Empire",
-        "c)": "Roman Empire",
-        "d)": "Persian Empire"
+      {
+        "question": "Unde se foloseste cuvantul cheie out?",
+        "answers": {
+          "a)": "La Transmiterea prin valoare",
+          "b)": "La Transmiterea unui numar variabil de parametri",
+          "c)": "La clase generice",
+          "d)": "La covarianta",
+          "e)": "La contravarianta"
+        },
+        "correct": [
+          "d)"
+        ]
       },
-      "correct": ["c)"]
-    },
-    {
-      "question": "Which explorers reached the Americas before 1600?",
-      "answers": {
-        "a)": "James Cook",
-        "b)": "Christopher Columbus",
-        "c)": "Amerigo Vespucci",
-        "d)": "Vasco da Gama"
+      {
+        "question": "Ce puteti spune despre liniile de cod urmatoare: int? i=null; String? x=null",
+        "answers": {
+          "a)": "Ambele sunt adevarate",
+          "b)": "Ambele sunt gresite",
+          "c)": "Prima este adevarata, a doua este gresita",
+          "d)": "A doua e gresita prima este adevarata"
+        },
+        "correct": [
+          "c)"
+        ]
       },
-      "correct": ["b)", "c)"]
-    },
-    {
-      "question": "The Berlin Wall fell in which year?",
-      "answers": {
-        "a)": "1987",
-        "b)": "1989",
-        "c)": "1991",
-        "d)": "1993"
+      {
+        "question": "Pentru un parametru formal declarat ca dynamic, tipul efectiv al lui este cunoscut la:",
+        "answers": {
+          "a)": "Compilare",
+          "b)": "Rulare",
+          "c)": "Depinde",
+          "d)": "Nu exista cuvantul \"dynamic\" in C#"
+        },
+        "correct": [
+          "b)"
+        ]
       },
-      "correct": ["b)"]
-    },
-    {
-      "question": "Which countries were founding members of NATO in 1949?",
-      "answers": {
-        "a)": "United States",
-        "b)": "Soviet Union",
-        "c)": "United Kingdom",
-        "d)": "Canada"
+      {
+        "question": "Pentru linia de cod: var x = 2.0m; Ce este adevarat?",
+        "answers": {
+          "a)": "Tipul lui x este determinat la compilare",
+          "b)": "Tipul lui x este determinat doar la rulare",
+          "c)": "Eroare la compilare",
+          "d)": "Eroare la rulare",
+          "e)": "Se folosesc tipuri de date dinamice",
+          "f)": "Pentru valoarea lui x sunt necesari 256 biti"
+        },
+        "correct": [
+          "a)"
+        ]
       },
-      "correct": ["a)", "c)", "d)"]
-    },
-    {
-      "question": "Who painted the ceiling of the Sistine Chapel?",
-      "answers": {
-        "a)": "Leonardo da Vinci",
-        "b)": "Raphael",
-        "c)": "Michelangelo",
-        "d)": "Donatello"
+      {
+        "question": "Pentru linia: var p = new Studnet { FirstName = \"Will\", Age = 20, LastName = \"Smith\" }; Ce e obligatoriu sa existe?",
+        "answers": {
+          "a)": "3 Proprietati read-only",
+          "b)": "Un constructor cu 3 parametri",
+          "c)": "Niciunul din celelalte raspunsuri",
+          "d)": "3 Proprietati cu auto-implementare",
+          "e)": "3 Indexatori cu auto-implementare"
+        },
+        "correct": [
+          "d)"
+        ]
       },
-      "correct": ["c)"]
-    },
-    {
-      "question": "Which revolutions occurred in the 18th century?",
-      "answers": {
-        "a)": "American Revolution",
-        "b)": "Russian Revolution",
-        "c)": "French Revolution",
-        "d)": "Industrial Revolution"
+      {
+        "question": "Despre parametrii optionali:",
+        "answers": {
+          "a)": "Nu permit transmiterea altor valori decat cele specificate la declarare",
+          "b)": "Se mai numesc si la parametri cu valoare implicita",
+          "c)": "Trebuie precizati dupa parametrii cu valori obligatorii",
+          "d)": "Valorile asociate trebuie sa fie constante"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)"
+        ]
       },
-      "correct": ["a)", "c)", "d)"]
-    },
-    {
-      "question": "The Titanic sank in which year?",
-      "answers": {
-        "a)": "1910",
-        "b)": "1912",
-        "c)": "1914",
-        "d)": "1916"
+      {
+        "question": "Legat de suportul pentru tablouri mari din .NET 4.5:",
+        "answers": {
+          "a)": "Daca sistemul de operare e pe 64 de biti, permite lucrul cu tablorui mai mari de 2 gigaocteti",
+          "b)": "Neceista declarare specifica in fisierul de configurare",
+          "c)": "Permite oricat de multe elemente, dar in tabloul nu poate depasi 2 gigaocteti",
+          "d)": "Se poate folosi doar in tablouri neregulate"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
       },
-      "correct": ["b)"]
-    },
-    {
-      "question": "Which ancient Greek philosophers were students of Socrates?",
-      "answers": {
-        "a)": "Aristotle",
-        "b)": "Plato",
-        "c)": "Pythagoras",
-        "d)": "Xenophon"
+      {
+        "question": "Despre directive using static:",
+        "answers": {
+          "a)": "Permite importarea directa a claselor statice dintr-un spatiu de nume",
+          "b)": "Permite importarea membrilor statici dintr-un tip de date",
+          "c)": "Mareste eficienta codului la rulare",
+          "d)": "Niciunul din celelalte raspunsuri nu e corect"
+        },
+        "correct": [
+          "b)"
+        ]
       },
-      "correct": ["b)", "d)"]
-    },
-    {
-      "question": "Who was known as the 'Iron Lady'?",
-      "answers": {
-        "a)": "Queen Elizabeth II",
-        "b)": "Margaret Thatcher",
-        "c)": "Golda Meir",
-        "d)": "Indira Gandhi"
+      {
+        "question": "Despre filtrarea de exceptii:",
+        "answers": {
+          "a)": "Se foloseste bloc catch impreuna cu \"when\"",
+          "b)": "Se foloseste doar daca nu avem bloc finally",
+          "c)": "Permite tratarea de exceptii in functie de niste conditii"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
       },
-      "correct": ["b)"]
-    }
-  ]
+      {
+        "question": "Care din urmatoarele foloseste mecanismul de interpolare a sirurilor de caracter?",
+        "answers": {
+          "a)": "var s = $\"{p.Name} is {p.Age} year(s) old\";",
+          "b)": "string s = $\"{p.Name} is {p.Age} year(s) old\";",
+          "c)": "string s = p.Name + \" is \" + p.Age.ToString() + \" year(s) old\";",
+          "d)": "Console.Write(\"{0} is {1} year(s) old\", p.Name, p.Age);"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre proprietati cu implementare automata:",
+        "answers": {
+          "a)": "Folosesc un camp privat, creat automat de catre compilator",
+          "b)": "Pot avea implementare pentru unul din accesorii get sau set, dar nu amandoi",
+          "c)": "Proprietatea poate fi write-only",
+          "d)": "Pot fi calificate ca virtuale"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre tipul dynamic:",
+        "answers": {
+          "a)": "Tipul efectiv al lui este cunoscut la compilare",
+          "b)": "Tipul efectiv al lui este cunoscut la rulare",
+          "c)": "Nu se poate folosi in declaratii de variabile",
+          "d)": "Se poate folosi in declaratii de variabile"
+        },
+        "correct": [
+          "b)",
+          "d)"
+        ]
+      }
+    ]
+  },
+    "Platforma .NET": {
+    "questions": [
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "CIL are trasaturi de obiect orientare",
+          "b)": "CIL nu are trasaturi de obiect orientare",
+          "c)": "Specificatiile pentru tipurile de date comune sunt date in CLS",
+          "d)": "CLR face verificari de securitate asupra codului",
+          "e)": "CLR transforma un executabil .NET intr-un fisier executabil dependent de masina",
+          "f)": "Compilarea codului native in intregime, o singura data este facuta de catre Econo-JIT"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Functionalitatea de nivel scazut este implementata de catre:",
+        "answers": {
+          "a)": "CTS",
+          "b)": "CLS",
+          "c)": "Base Class Library",
+          "d)": "Garbage Collector",
+          "e)": "CLR"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Un assembly conota din",
+        "answers": {
+          "a)": "Cod compilat",
+          "b)": "Metadata",
+          "c)": "Manifest",
+          "d)": "Assembly cache",
+          "e)": "Biblioteci dinamice"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Codul scris in C# este compilat in cod:",
+        "answers": {
+          "a)": "CLR",
+          "b)": "CTS",
+          "c)": "Garbage Collector",
+          "d)": "Bytecode",
+          "e)": "IL",
+          "f)": "FCL",
+          "g)": "CTS",
+          "h)": "MSIL"
+        },
+        "correct": [
+          "e)",
+          "h)"
+        ]
+      },
+      {
+        "question": "Executia codului .NET este gestionata de:",
+        "answers": {
+          "a)": "CTS",
+          "b)": "CLS",
+          "c)": "CLR",
+          "d)": "IL",
+          "e)": "MSIL",
+          "f)": "Garbage Collector",
+          "g)": "Base Class Library"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Care dintre urmatoarele sunt folosite pentru compilarea codului native p singura data?",
+        "answers": {
+          "a)": "Normal JIT",
+          "b)": "Pre JIT",
+          "c)": "Econo JIT"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Limbajul IL recunoaste conceptual de mostenire",
+        "answers": {
+          "a)": "Adevarat",
+          "b)": "Fals"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Care din urmatoarele fac parte din responsabilitatile CLR?",
+        "answers": {
+          "a)": "Traducere din limbaj de nivel inalt(C#, VB, .NET) in cod intermediar IL",
+          "b)": "Eliberarea de memorie prin Garbage collection",
+          "c)": "Suprascrierea DLL urilor cu acelasi nume",
+          "d)": "Distribuirea codului in internet"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Setul de reguli pe care orice compilator ce trebuie integrat in .NET le va respecta sunt specificate de catre:",
+        "answers": {
+          "a)": "CLS",
+          "b)": "IL",
+          "c)": "MSIL",
+          "d)": "BCL",
+          "e)": "CLR"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Orice cod compilat pentru un limbaj oarecare din .NET este transformat in cod",
+        "answers": {
+          "a)": "IL",
+          "b)": "CLR",
+          "c)": "CTS",
+          "d)": "BCL",
+          "e)": "MSIL"
+        },
+        "correct": [
+          "a)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Varianta in care se face o precompilare in cod masina pentru tot codul intermediar se numeste:",
+        "answers": {
+          "a)": "Econ JIT",
+          "b)": "Normal JIT",
+          "c)": "Pre JIT"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Tipurile comune care se pot specifica pt limbaje diferite din platforma .NET se definesc in:",
+        "answers": {
+          "a)": "CLR",
+          "b)": "BLC",
+          "c)": "CTS",
+          "d)": "IL"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Daca se doreste adaugarea unui compilator in platforma .NET, trebuie respectat:",
+        "answers": {
+          "a)": "CLS",
+          "b)": "FCL",
+          "c)": "MSIL",
+          "d)": "IL",
+          "e)": "BCL"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "In ce componenta a platformei .NET sunt grupate functionalitatiile de nivel scazut(fire de eecutie, operatii cu siruri de caractere, comunicatie prin rete)?",
+        "answers": {
+          "a)": "BCL",
+          "b)": "CLR",
+          "c)": "CIL",
+          "d)": "CLS"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Managementul si executia codului se fac in platforma .NET de catre:",
+        "answers": {
+          "a)": "CTS",
+          "b)": "CLR",
+          "c)": "CLS",
+          "d)": "CIL",
+          "e)": "FCL",
+          "f)": "BCL"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "In ce este tradus codul scris intr-un limbaj de nivel inalt, recunoscut de platforma .NET?",
+        "answers": {
+          "a)": "XML",
+          "b)": "CIL",
+          "c)": "BCL",
+          "d)": "ASP.NET",
+          "e)": "CLR"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "Desi in garbage collector se ocupa de dealocarea de memorie, este inca posibil sa apara fenomenul de \"memory leak\" intr-o aplicatie .NET",
+          "b)": "In Common Type System se prevede existenta tipurilor valoare si a celor de referinta",
+          "c)": "Metadatele dintr-un assembly sunt o alta denumire pentru codul compilat stocat de acel assembly",
+          "d)": "Limbajul CIL este cod masina"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      }
+    ]
+  },
+    "Tipuri predefinite. Tablouri": {
+    "questions": [
+      {
+        "question": "Despre tipul String",
+        "answers": {
+          "a)": "Este tip predefinit",
+          "b)": "Este tip referinta",
+          "c)": "Este tip valoare",
+          "d)": "Este tip structura",
+          "e)": "Suporta valoarea null",
+          "f)": "Permite modificarea caracterelor din interiorul sau"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Am o variabila de tip intreg, trebuie sa o trimit ca parametru unei metode, vreau ca modificarea valorii survenite in metoda sa fie vizibila in interior. Cum procedez?",
+        "answers": {
+          "a)": "O transmit prin ref",
+          "b)": "O transmit prin out",
+          "c)": "O transmit prin valoare",
+          "d)": "Ii fac boxing",
+          "e)": "Nu se poate"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre o variabila locala ca tip String:",
+        "answers": {
+          "a)": "Sirul de caractere se salveaza pe stiva",
+          "b)": "Sirul de caractere se salveaza pe heap",
+          "c)": "Se initializeaza cu null",
+          "d)": "Se initializeaza cu sirul vid",
+          "e)": "Poate fi concatenata la un camp"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Tipul decimal se reprezinta pe:",
+        "answers": {
+          "a)": "8 biti",
+          "b)": "16 biti",
+          "c)": "32 biti",
+          "d)": "64 biti",
+          "e)": "128 biti",
+          "f)": "256 biti",
+          "g)": "Depinde de procesor",
+          "h)": "Nu exista tipul decimal"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Daca avem: String s = \"abc\"; si vrea ca s sa indice catre \"ABC\", cum se procedeaza?",
+        "answers": {
+          "a)": "s[0] = 'A'; S[1] = 'B'; s[2] = 'C';",
+          "b)": "s[0] = \"A\"; s[1] = \"B\"; s[2] = \"C\";",
+          "c)": "s.ToUpper;",
+          "d)": "s.ToUpper();",
+          "e)": "s.toUpper;",
+          "f)": "s.toUpper();",
+          "g)": "s = s.ToUpper();",
+          "h)": "s = s.toUpper();",
+          "i)": "Nu se poate"
+        },
+        "correct": [
+          "g)"
+        ]
+      },
+      {
+        "question": "Pt urmatoarea secventa de cod: public void doSomething() { int k; Console.WriteLine(\"(0)\", k); k = 10; Console.WriteLine(\"(1)\", k); }",
+        "answers": {
+          "a)": "Se face bowing",
+          "b)": "Se face unbowing",
+          "c)": "Eroare la rulare",
+          "d)": "Eroare la compilare",
+          "e)": "Notatia folosita pt metoda este adecvata",
+          "f)": "Notatia folosita pt metoda este neadecvata"
+        },
+        "correct": [
+          "d)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Este posibila initializarea la declarare a:",
+        "answers": {
+          "a)": "Campurilor",
+          "b)": "Variabilelor de tip matrice neregulate",
+          "c)": "Variabilelor de tip matrice rectangulare",
+          "d)": "Obiectelor de tip colectie geometrica",
+          "e)": "Variabilelor locale"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Pentru declaratia cu initializare: int(.) tab = new int(.){(1,2), (3,4)};",
+        "answers": {
+          "a)": "E corecta sintactic",
+          "b)": "Nu e corecta sintactic",
+          "c)": "Metoda Rank() returneaza 2",
+          "d)": "Metoda Rank() returneaza 1",
+          "e)": "Proprietatea Rank returneaza 1",
+          "f)": "Proprietatea Rank returneaza 2",
+          "g)": "Proprietatea Length returneaza 4",
+          "h)": "Metoda Length returneaza 4"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre tipul enumarate",
+        "answers": {
+          "a)": "Este tip valoare",
+          "b)": "Este tip referinta",
+          "c)": "Este derivat direct din System.ValueType",
+          "d)": "Poate reprezenta intotdeauna 0",
+          "e)": "Se poate converti in mod implicit de la si catre tipul de baza",
+          "f)": "Pot implementa interfete"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Diferentele intre operatori is si as:",
+        "answers": {
+          "a)": "is poate returna null, as returneaza Boolean",
+          "b)": "as poate returna null, is returneaza Boolean",
+          "c)": "is arunca exceptie, as nu",
+          "d)": "as arunca exceptie, is nu"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre un tablou rectangular bidemensional de tip int:",
+        "answers": {
+          "a)": "admite initializare de null",
+          "b)": "Numarul de elemente pentru fiecare dimensiune se determina cu proprietatea Length",
+          "c)": "Numarul de elemente pentru fiecare dimensiune se determina cu metoda Length",
+          "d)": "Proprietatea Rank returneaza valoarea 1",
+          "e)": "Proprietatea Rank returneaza valoarea 2"
+        },
+        "correct": [
+          "a)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Ce este int?",
+        "answers": {
+          "a)": "Interfata",
+          "b)": "Clasa",
+          "c)": "Structura",
+          "d)": "Metadata"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Cum se numeste conversia explicita de la tip referinta la tip valoare:",
+        "answers": {
+          "a)": "boxing",
+          "b)": "unboxing",
+          "c)": "compilare",
+          "d)": "intermedire de cod"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Pt tipul de date System.Single aliasul este:",
+        "answers": {
+          "a)": "Single",
+          "b)": "Double",
+          "c)": "Float",
+          "d)": "Decimal"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Care din urmatoarele sunt tipuri valoare:",
+        "answers": {
+          "a)": "enumerari",
+          "b)": "tablouri",
+          "c)": "clase definite de utilizatori",
+          "d)": "structure"
+        },
+        "correct": [
+          "a)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Conversia de la 0 la tip enumerare si inapoi este suportata implicit:",
+        "answers": {
+          "a)": "adevarat",
+          "b)": "fals"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Care din urmatoarele constituie declarare si initializare a unui tablou unidimensional de tip intreg:",
+        "answers": {
+          "a)": "int[] x=new int[]{1,2,3}",
+          "b)": "int x[]=new int[]{1,2,3}",
+          "c)": "int[] x={1,2,3}",
+          "d)": "int x[]={1,2,3}"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Pt concatenarea multipla de stringuri este recomandat a se folosi clasa:",
+        "answers": {
+          "a)": "String",
+          "b)": "StringBuffer",
+          "c)": "Regex",
+          "d)": "StringBuilder"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Doresc sa creez o metoda care sa modifice valorile parametrilor de apel(ce sunt initializati) iar aceste modificari sa fie vizibile si dup ace s-a revenit din apel. Ce fel de transmitere folosesc?",
+        "answers": {
+          "a)": "prin valoare",
+          "b)": "folosind ref",
+          "c)": "folosind out"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Unboxing este o conversie:",
+        "answers": {
+          "a)": "implicit",
+          "b)": "explicit"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Un camp de tip string neinitializat va fi initializat la instantierea unui obiect cu:",
+        "answers": {
+          "a)": "Sirul vid",
+          "b)": "un spatiu",
+          "c)": "null",
+          "d)": "ramane neinitializat"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Pentru codul object x = 3; cum imi pot da seama ca x contine o valoare intreaga:",
+        "answers": {
+          "a)": "Afisez folosind \"ToString()\"",
+          "b)": "Folosind conversie explicita",
+          "c)": "Folosind operatorul is",
+          "d)": "Folosind operatorul as",
+          "e)": "Nu se poate"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Ce este sinonim cu float?",
+        "answers": {
+          "a)": "System.Float",
+          "b)": "System.Double",
+          "c)": "System.Enum",
+          "d)": "System.Decimal",
+          "e)": "System.Int32",
+          "f)": "System.Single"
+        },
+        "correct": [
+          "f)"
+        ]
+      },
+      {
+        "question": "Relativ la variabilele locale de tip intreg:",
+        "answers": {
+          "a)": "Se aloca pe stiva",
+          "b)": "Se aloca in heap",
+          "c)": "Pot avea valoarea de null",
+          "d)": "Se initializeaza implicit cu valoarea 0",
+          "e)": "Ocupa 16 de biti",
+          "f)": "Ocupa 32 de biti",
+          "g)": "Ocupa 64 de biti"
+        },
+        "correct": [
+          "a)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Se da secventa: int i=10; object o = i; i=20; Console.WriteLine(\"valoare {0}\", o); Ce este adevarat?",
+        "answers": {
+          "a)": "Eroare la compilare",
+          "b)": "Eroare la rulare",
+          "c)": "Se afiseaza 10",
+          "d)": "Se afiseaza 20",
+          "e)": "Se face boxing",
+          "f)": "Se face unboxing"
+        },
+        "correct": [
+          "c)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat? Alegeti o optiune:",
+        "answers": {
+          "a)": "Tipul float este reprezentat pe 64 de biti",
+          "b)": "Tipul float este reprezentat pe 64 de biti",
+          "c)": "Tipul decimal se reprezinta pe 64 de biti",
+          "d)": "Tipul decimal se reprezinta pe 64 de biti"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre tipuri de date suportate de .NET:",
+        "answers": {
+          "a)": "Tipul de date int se reprezinta pe 32 de biti, cu semn",
+          "b)": "Tipul de date float se reprezinta pe 32 de biti si admite valoarea NaN (Not a Number)",
+          "c)": "Tipul de date double se reprezinta pe 64 de biti si reprezinta doar valori pozitive",
+          "d)": "Tipul double valoare si tipurile referinta, mai exista alte tipuri de date",
+          "e)": "Orice tip enumerare este tip referinta"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre tipurile de date de mai jos?",
+        "answers": {
+          "a)": "Tipul enumerare nu are o dimensiune fixa implicit int",
+          "b)": "Orice tip enumerare este derivat direct din System.Enum",
+          "c)": "Orice tip enumerare este derivat direct din System.ValueType",
+          "d)": "Orice tip enumerare poate reprezenta valori strict mai mari decat zero",
+          "e)": "Orice tip enumerare este tip referinta"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre tipul decimal:",
+        "answers": {
+          "a)": "Pentru declararea unei variabile de tip decimal si instantierea ei cu valoarea 1 se poate folosi: decimal x = 1.0m;",
+          "b)": "Este tip valoare",
+          "c)": "Se reprezinta in virgula mobila",
+          "d)": "Este tip referinta",
+          "e)": "Permite conversie implicita de la si catre double"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre tablouri in C# (arrays):",
+        "answers": {
+          "a)": "Se pot initializa la declarare; folosind urmatorul fiind valid: int[] = new int[]{1,2,3,4});",
+          "b)": "Sunt tipuri referinta, chiar daca avem tablouri care contin valori de tip valoare",
+          "c)": "Sunt tipuri valoare, chiar daca sunt tablouri care contin valori de tip valoare",
+          "d)": "Pentru un tablou rectangular bidimensional, proprietatea Length returneaza numarul de elemente de pe prima linie"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre tablouri de valori:",
+        "answers": {
+          "a)": "Campurile de tip tablou de intregi dintr-o clasa se initializeaza implicit cu un tablou cu valori 0",
+          "b)": "Pentru tablourile multimensionale rectangulare nu putem specifica valorile continute la declarare",
+          "c)": "Pentru tablouri unidimensionale: se permite conversie de la tablou de int la tablou de double",
+          "d)": "Pentru un tablou de intregi, implicit valorile continute sunt 0, daca nu se specifica altfel la declarare"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre tipul sir de caractere:",
+        "answers": {
+          "a)": "Daca doua variabile de tip string sunt comparate cu semnul ==, prima fiind nenula si a doua nula, se returneaza false",
+          "b)": "Daca doua variabile de tip string sunt comparate cu semnul ==, prima fiind nula si a doua nenula, se arunca exceptie",
+          "c)": "Se pot defini siruri de caractere multilinie in C#",
+          "d)": "Variabilele de tip string permit modificarea continutului lor"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Care din urmatoarele este tip referinta?",
+        "answers": {
+          "a)": "System.Char",
+          "b)": "bool",
+          "c)": "nu exista tipuri referinta",
+          "d)": "System.String"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Pentru un tablou unidimensional de intregi declarat si instantiat precum mai jos: int[] t = { 1, 2, 3 }; ce este adevarat?",
+        "answers": {
+          "a)": "Numarul de dimensiuni ale lui t se afla cu t.Rank",
+          "b)": "Variabila t are tip valoare",
+          "c)": "Variabile t are tip referinta",
+          "d)": "Numarul de elemente din t se afla cu t.Length",
+          "e)": "Se poate transmite t pentru parametrul x declarat ca mai jos: void g(params int[] x, double y){ //cod }"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Se da codul: string a =\"123\"; string b = a; b[0]='0'; Ce este adevarat?",
+        "answers": {
+          "a)": "variabila a va indica spre sirul \"123\" b spre \"023\"",
+          "b)": "variabila b va indica spre sirul \"123\", a spre \"023\"",
+          "c)": "Atat a cat si b indica spre sirul \"123\"",
+          "d)": "Atat a cat si b indica spre sirul \"023\"",
+          "e)": "Niciuna din raspunsurile de mai sus"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat din urmatoarele?",
+        "answers": {
+          "a)": "Tipul short este intreg reprezentat pe 16 biti, cu semn",
+          "b)": "Tipul short este intreg reprezentat pe 16 biti, fara semn",
+          "c)": "Tipul short este intreg reprezentat pe 32 biti, cu semn",
+          "d)": "Tipul short este intreg reprezentat pe 32 biti, fara semn",
+          "e)": "Tipul short poate reprezenta valori neintregi",
+          "f)": "Tipul short e o structura",
+          "g)": "Tipul short e o clasa",
+          "h)": "Tipul short e o enumerare"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce este adevărat despre tipurile tablou:",
+        "answers": {
+          "a)": "La tablourile rectangulare cu doua dimensiuni numarul de elemente pe linii consecutive poate diferi",
+          "b)": "La tabloul \"int[,] x = new int[m, n];\" proprietatea Rank returneaza valoarea 2",
+          "c)": "La tabloul \"int[,] x = new int[m, n];\" proprietatea Length returneaza valoarea m",
+          "d)": "Sunt derivate direct din tipul System.Object, alias object"
+        },
+        "correct": [
+          "b)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Pentru siruri de caractere:",
+        "answers": {
+          "a)": "Au metoda ce permite gasirea indicelui primei aparitii a unui subsir intr-un sir",
+          "b)": "Au metoda ce permite gasirea indicelui ultimei aparitii a unui subsir intr-un sir",
+          "c)": "Concatenarea a doua siruri de caractere modifica unul din siruri",
+          "d)": "Pentru un sir de caractere, lungimea lui se determina cu metoda Length()"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Care din afirmatiile de mai jos sunt adevarate?",
+        "answers": {
+          "a)": "Conversia de la un tablou unidimensional de 10 elemente object la un tablou unidimensional de 10 elemente string este permisa si de tip implicit",
+          "b)": "Conversia de la un tablou unidimensional de 10 elemente object la un tablou unidimensional de 10 elemente string este permisa si de tip explicit",
+          "c)": "Conversia de la o clasa la un tip interfata pe care clasa il implementeaza este posibila si de tip implicit",
+          "d)": "Conversia de la o clasa la un tip interfata pe care clasa il implementeaza este posibila si de tip explicit"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre tipul enumerare:",
+        "answers": {
+          "a)": "Este tip valoare",
+          "b)": "La definirea unui tip enumerare este obligatorie definirea unui constructor",
+          "c)": "Permit campuri cu valori in virgula mobila",
+          "d)": "Valoarea implicita asociata este 0",
+          "e)": "Permit campuri cu valori egale",
+          "f)": "La definirea unui tip enumerare este obligatorie definirea unui destructor"
+        },
+        "correct": [
+          "a)",
+          "d)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Despre cuvantul cheie var:",
+        "answers": {
+          "a)": "La compilare se deduce automat tipul variabilei pentru care se foloseste",
+          "b)": "La rulare se deduce automat tipul variabilei pentru care se foloseste",
+          "c)": "Nu poate folosi pentru declarare de parametri formali in numele metodei",
+          "d)": "Se poate folosi pentru declararea tipului iteratorului in ciclarea foreach"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Avem variabila: String a = \"abc\". Ce puteti spune despre instructiunea: a[0] = 'A';",
+        "answers": {
+          "a)": "Declansaza eroare la compilare si la rulare",
+          "b)": "Declansaza eroare la compilare",
+          "c)": "Compilarea reuseste, dar la rulare se arunca exceptie",
+          "d)": "Se compileaza si ruleaza, dupa atribuire variabila a va contine valoarea \"Abc\""
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Pentru un camp de tip double declarat ca fiind constant:",
+        "answers": {
+          "a)": "Poate primi la declarare valoarea Math.Sqrt(10);",
+          "b)": "E static",
+          "c)": "Sunt implicit private",
+          "d)": "Sunt implicit publice"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      }
+    ]
+  },
+    "Clase. Instructiuni": {
+    "questions": [
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "metodele din clasele abstracte pot fi implementate",
+          "b)": "o clasa abstracta poate avea constructor static",
+          "c)": "proprietatile pot fi mostenite",
+          "d)": "constructorii pot fi mosteniti",
+          "e)": "destructorii se pot apela manual"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre clase",
+        "answers": {
+          "a)": "pot fi derivate din mai multe clase simultan",
+          "b)": "pot implementa mai multe interfete simultan",
+          "c)": "pot avea indexator static",
+          "d)": "se pot declara ca fiind nederivabile"
+        },
+        "correct": [
+          "b)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Campurile constant versus campurile Readonly",
+        "answers": {
+          "a)": "campurile constant trebuie initializate la declarare",
+          "b)": "campurile constant nu trebuie initializate la declarare",
+          "c)": "campurile readonly trebuie initializate la declarare",
+          "d)": "campurile readonly nu trebuie initializate la declarare",
+          "e)": "campurile constant sunt statice, implicit",
+          "f)": "campurile readonly sunt statice, implicit"
+        },
+        "correct": [
+          "a)",
+          "d)",
+          "e)"
+        ]
+      },
+      {
+        "question": "In legatura cu proprietatile:",
+        "answers": {
+          "a)": "pot avea get public si set privat",
+          "b)": "pot avea get internal si set protected",
+          "c)": "pot avea get internal si set private internal",
+          "d)": "daca sunt cu implementarea automata, atunci inca pot avea get public si set privat",
+          "e)": "se bazeaza pe attribute ale clasei"
+        },
+        "correct": [
+          "a)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Care dintre urmatoarele sunt cicluri cu test initial?",
+        "answers": {
+          "a)": "While",
+          "b)": "do..while",
+          "c)": "for",
+          "d)": "goto"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Cum pot creea o clasa care sa nu poata fi derivate?",
+        "answers": {
+          "a)": "nu se poate",
+          "b)": "o declar partial",
+          "c)": "o declar static",
+          "d)": "nu ii scriu nici un constructor",
+          "e)": "ii scriu cel putin un constructor si toti constructorii sunt private",
+          "f)": "o declar final",
+          "g)": "o declar abstracta"
+        },
+        "correct": [
+          "c)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Ce poate fi static intr-o clasa?",
+        "answers": {
+          "a)": "destructor",
+          "b)": "metoda",
+          "c)": "proprietate",
+          "d)": "indexator",
+          "e)": "camp"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Despre clasele abstracte",
+        "answers": {
+          "a)": "pot deriva alte clase abstracte",
+          "b)": "nu pot deriva alte clase abstracte",
+          "c)": "pot fi partiale",
+          "d)": "nu pot fi partiale",
+          "e)": "pot avea constructor static",
+          "f)": "pot avea constructor cu implementare"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "e)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Intr-o clasa, cu un camp instant declarant ca protected internal. Cine are acces la el?",
+        "answers": {
+          "a)": "orice metoda in clasa curenta",
+          "b)": "orice metoda dintr-o clasa derivate, dar numai daca derivta este in acelasi assembly",
+          "c)": "orice metoda dintr-o clasa derivate",
+          "d)": "orice clasa dintr-o clasa din acelasi assembly",
+          "e)": "orice metoda de oriunde"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre metoda Main",
+        "answers": {
+          "a)": "trebuie sa fie scrisa in orice clasa",
+          "b)": "nu e obligatoriu sa fie scrisa in orice clasa",
+          "c)": "poate returna int",
+          "d)": "nu poate returna int",
+          "e)": "trebuie declarata intodeauna cu 'public'",
+          "f)": "poate sa nu fie declarata cu 'public'"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Ce puteti spune despre: Using c=System.Console;",
+        "answers": {
+          "a)": "sigur eroare la compilare",
+          "b)": "sigur eroare la rulare",
+          "c)": "este vorba de instructiunea using",
+          "d)": "este vorba de directiva using"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre enumerari:",
+        "answers": {
+          "a)": "permit valori de null",
+          "b)": "sunt tipuri valoare",
+          "c)": "sunt tipuri referinta",
+          "d)": "permit upcasting object",
+          "e)": "pot implementa interfete",
+          "f)": "sunt derivate din System.ValueType"
+        },
+        "correct": [
+          "b)",
+          "d)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Ce se poate scrie intr-o clasa statica?",
+        "answers": {
+          "a)": "metoda statica",
+          "b)": "constructor, orice fel",
+          "c)": "destructor",
+          "d)": "constructor static",
+          "e)": "constructor instanta",
+          "f)": "indexator",
+          "g)": "constructor instanta cu parametru",
+          "h)": "constructor instanta fara parametru"
+        },
+        "correct": [
+          "a)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Pt ce metode se permite calificatorul sealed?",
+        "answers": {
+          "a)": "pt cele din clasele sealed",
+          "b)": "pt cele virtuale",
+          "c)": "pt cele calificate cu 'override'",
+          "d)": "pt cele abstracte",
+          "e)": "nu exista metode sealed"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Avem secventa: int i=0;while(++i<10);Console.WriteLine(i.ToString());ce se afiseaza?",
+        "answers": {
+          "a)": "numerele de la 1 la 9",
+          "b)": "numerele de la 1 la 10",
+          "c)": "numerele de la 0 la 9",
+          "d)": "numerele de la 0 la 10",
+          "e)": "numarul 10",
+          "f)": "numarul 9",
+          "g)": "numarul 11",
+          "h)": "eroare la compilare",
+          "i)": "eroare la rulare"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Avem secventa: class A{int x; static void f() {x++;}}Ce puteti spune?",
+        "answers": {
+          "a)": "Daca se da o valoare initiala lui x, e corecta",
+          "b)": "Se compileaza, dar da erori la o eventuala instantiere",
+          "c)": "Nu se compileaza",
+          "d)": "E corecta"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Cum pot scrie o clasa care sa nu poata fi derivate in C#?",
+        "answers": {
+          "a)": "o declar final",
+          "b)": "o declar sealed",
+          "c)": "o declar static",
+          "d)": "ii declar constructorii instant ca fiind private",
+          "e)": "nu ii scriu nici un constructor",
+          "f)": "nu se poate"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Avem o metoda declarata ca private internal. Cine o poate accesa?",
+        "answers": {
+          "a)": "orice metoda din aceeasi clasa",
+          "b)": "orice metoda din clasa derivata",
+          "c)": "orice metoda din acelasi assembly",
+          "d)": "orice metoda din clasa derivata si in acelasi assembly",
+          "e)": "orice metoda, de oriunde"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Am un camp static care trebuie initializat la runtime, iar apoi sa nu poata fi modificat. Cum procedez?",
+        "answers": {
+          "a)": "o declaram read-only",
+          "b)": "o initializam in constructorul clasei"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce permite C#?",
+        "answers": {
+          "a)": "Implementare de mai multe interfete",
+          "b)": "Mostenire multipla",
+          "c)": "apel de cod unmanaged",
+          "d)": "declaratii de tipuri partiale"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Ultima instructiune care se apeleaza automat si garantat in cadrul unui bloc using este",
+        "answers": {
+          "a)": "destructorul",
+          "b)": "constructorul",
+          "c)": "finally",
+          "d)": "Dispose()",
+          "e)": "Close()",
+          "f)": "Release()",
+          "g)": "apel de garbage collector",
+          "h)": "destructorul static"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Selectati ce este adevarat",
+        "answers": {
+          "a)": "Pt numele campurilor se foloseste conventia descriere de tip Pascal",
+          "b)": "Pt numele campurilor se foloseste conventia descriere de tip camila",
+          "c)": "pt numele claselor publice se foloseste conventia descriere Pascal",
+          "d)": "pt numele claselor publice se foloseste conventia descriere camila"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Care este efectul instructiunii break intr-o instructiune de ciclare",
+        "answers": {
+          "a)": "Intreruperea ciclarii",
+          "b)": "Reluarea ciclarii de la pasul urmator",
+          "c)": "Iesirea din metoda",
+          "d)": "reluarea pasului curent"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Accesul la un camp nestatic se face din",
+        "answers": {
+          "a)": "constructor",
+          "b)": "constructor static",
+          "c)": "metoda nestatica",
+          "d)": "metoda static"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Care din urmatoarele pot fi apelate de catre programator",
+        "answers": {
+          "a)": "constructori nestatici",
+          "b)": "constructori statici",
+          "c)": "destructorul"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce afirmatie este adevarata?",
+        "answers": {
+          "a)": "Constructorul clasei de baza poate sa nu fie rulat niciodata la instantierea unei clase derivate",
+          "b)": "Constructorul clasei de baza este apelat dupa constructorul clasei derivate",
+          "c)": "constructorul clasei de baza este apelat inaintea celui al clasei derivate",
+          "d)": "constructorul static al clasei de baza poate fi apelat de catre constructorul clasei derivate"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "o clasa abstracta nu poate contine metode definite",
+          "b)": "o clasa abstracta nu poate implementa o interfata",
+          "c)": "o clasa abstracta poate avea constructor de instant"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Pentru Proprietati:",
+        "answers": {
+          "a)": "Cele cu implementae automata pot fi read-only",
+          "b)": "Pot fi virtuale",
+          "c)": "Pot avea protected si set internal",
+          "d)": "Pot fi declarate cu implementare in clase abstracte",
+          "e)": "Pot fi statice"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre clase abstracte",
+        "answers": {
+          "a)": "Pot contine metode cu implementare",
+          "b)": "Pot contine constructor static",
+          "c)": "Pot contine constructor cu implementare",
+          "d)": "Pot contine destructor"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Pentru declararea unui alias la clasa A care e continuta in spatial de nume B care la randul lui este inclus in spatial de nume C folosesc",
+        "answers": {
+          "a)": "Using X=C.B.A;",
+          "b)": "Using C.B.A=X;",
+          "c)": "Using C.B.A",
+          "d)": "Nu se poate"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Cum pot sa obtin o clasa nederivabila in C#?",
+        "answers": {
+          "a)": "Ii scriu cel putin un constructor instant si toti constructorii instant se declara private",
+          "b)": "O calific cu final",
+          "c)": "O calific cu sealed",
+          "d)": "O declar static",
+          "e)": "Ii descriu doar metode statice (nu si constructori instanta)"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre metodele de extensie",
+        "answers": {
+          "a)": "Pot fi declarate in clase instantiabile",
+          "b)": "Pot fi private",
+          "c)": "Primul parametru este de tipul clasei in care se scrie metoda",
+          "d)": "Pot avea mai mult de un parametru",
+          "e)": "Pot fi scrise incepand cu c# 2.0"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Unde se foloseste cuvantul cheie 'default'?",
+        "answers": {
+          "a)": "In ciclari",
+          "b)": "La instructiunea 'switch'",
+          "c)": "La tipuri generice",
+          "d)": "La transmiteri de exceptii",
+          "e)": "La tratare de exceptii"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Compilatorul de c# scrie un constructor implicit pentru mine, Eu vreau inca un constructor care sa preia un argument de tip intreg. Cati constructori trebuie sa scriu",
+        "answers": {
+          "a)": "1",
+          "b)": "2",
+          "c)": "Nu se poate",
+          "d)": "Niciunul"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre gradele de vizibilitate:",
+        "answers": {
+          "a)": "destructorii nu pot fi declarati publici",
+          "b)": "constructorii statici pot fi declarati publici",
+          "c)": "un camp calificat cu \"protected internal\" este accesibil oricarei clase derivate din clasa curenta, chiar daca clasa derivata nu e din acelasi assembly",
+          "d)": "un camp calificat ca \"protected internal\" este accesibil oricarei clase derivate din clasa curenta, dar numai daca clasa derivata e din acelasi assembly",
+          "e)": "un tip delegat declarat intr-un spatiu de nume este implicit private"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre clasele statice?",
+        "answers": {
+          "a)": "Nu pot fi partiale",
+          "b)": "Pot fi partiale",
+          "c)": "Pot avea constructor instanta",
+          "d)": "Pot avea destructor",
+          "e)": "Pot avea constructor static",
+          "f)": "Din ele se pot deriva alte clase",
+          "g)": "Pot contine proprietati statice",
+          "h)": "Pot contine indexatori statici"
+        },
+        "correct": [
+          "b)",
+          "e)",
+          "g)"
+        ]
+      },
+      {
+        "question": "Vreau sa scriu o singura metoda in C# care sa poate fi apelata cu 1 sau 2 sau 3 parametrii de tip intreg. Cum se poate face asta?",
+        "answers": {
+          "a)": "se face transmitere prin ref",
+          "b)": "se face transmitere prin out",
+          "c)": "se face transmitere prin params",
+          "d)": "se folosesc parametrii cu nume",
+          "e)": "prin metoda partiala",
+          "f)": "nu se poate"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Cum e poate obtie o clasa care sa nu poate fi derivata?",
+        "answers": {
+          "a)": "Se declara clasa ca fiind abstracta",
+          "b)": "Se foloseste cuvantul \"final\"",
+          "c)": "Se foloseste cuvantul \"sealed\"",
+          "d)": "Se foloseste cuvantul \"NonInheritable\"",
+          "e)": "Nu ii scriu nici un constructor, nici instanta, nici static",
+          "f)": "Ii scriu constructor static numai instanta",
+          "g)": "Ii scriu constructori instanta privati(cu sau fara parametrii)"
+        },
+        "correct": [
+          "c)",
+          "g)"
+        ]
+      },
+      {
+        "question": "Un camp calificat ca \"protected internal\" este accesibil oricarei clase derivate din clasa curenta, dar numai daca clasa derivata e din acelasi assembly",
+        "answers": {
+          "a)": "adevarat",
+          "b)": "fals"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Care este diferenta dintre campuri const si campuri read-only?",
+        "answers": {
+          "a)": "Sunt la fel",
+          "b)": "Constantele trebuie sa fie initializate de la locul declararii pe cand read-only poate fi initializat oupa declarare",
+          "c)": "Read-only trebuie sa fie initializate la locul declararii pe cand const poate fi initializat mai tarziu",
+          "d)": "Readonly pot fi schimbate dar const nu",
+          "e)": "campurile readonly sunt implicit statice, campurile const pot fi asociate fiecarei instante in parte",
+          "f)": "campurile const sunt implicit statice campurile readonly pot fie asociate fiecarei instante in parte"
+        },
+        "correct": [
+          "b)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Apelarea constructorului clasei de baza se face prin:",
+        "answers": {
+          "a)": "base (lista parametrii) care se pune dupa doua puncte",
+          "b)": "base(lista parametrii) care se pune ca prima instructiune in constructor",
+          "c)": "super (lista parametrii) care se pune ca prima instructiune in constructor",
+          "d)": "nu se apeleaza de catre programator, se mostenesc oricum"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre proprietati in cadrul claselor:",
+        "answers": {
+          "a)": "Pot fi declarate virtual",
+          "b)": "Cele cu implementare automata pot fi read-only",
+          "c)": "Pot fi calificate ca sealed (in anumite conditii)",
+          "d)": "Pot avea \"get\" public si \"set\" private",
+          "e)": "Pot avea \"get\" internal si set \"protected\""
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Daca se considera codul: class X { public X(){} private int a; }; la instructiunea X x = new X(), unde se va aloca campul a?",
+        "answers": {
+          "a)": "pe stiva",
+          "b)": "in heap",
+          "c)": "nicaieri,eroare la compilare",
+          "d)": "nicaieri,eroare la rulare"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce metode pot fi calificate ca \"sealed\"?",
+        "answers": {
+          "a)": "cele virtuale",
+          "b)": "ce declarate \"override\"",
+          "c)": "constructori",
+          "d)": "destructori",
+          "e)": "cele statice"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Vreau sa ii transmit unei metode printr-un parametru o variabila neinitializata, in metoda sa se seteze o valoare parametrului formal corespunzator si dupa terminarea metodei valoarea setata sa fie regasita. Cum procedez?",
+        "answers": {
+          "a)": "fac transmitere prin valoare",
+          "b)": "fac transmitere prin \"ref\"",
+          "c)": "fac transmitere prin \"out\"",
+          "d)": "Nicicum, acest lucru se intampla implicit",
+          "e)": "Nu se poate"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Ce e gresit in codul de mai jos? Class A{ int l; static void test(){ this.l = 100; } }",
+        "answers": {
+          "a)": "Nu contine nici o metoda statica",
+          "b)": "nu are nici o metoda publica",
+          "c)": "campul intreg nu este initializat",
+          "d)": "cuvantul this nu poate fi folosit astfel in functie statica",
+          "e)": "nu are constructor",
+          "f)": "campul nu are specificator de acces,eroare la compilare"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "o clasa abstracta nu poate sa contina metode cu implementare",
+          "b)": "o clasa abstracta nu poate implementa o interfata",
+          "c)": "o clasa abstracta poate avea constructori de instanta implementati",
+          "d)": "o clasa abstracta poate avea constructor static"
+        },
+        "correct": [
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Clasa B este derivata din clasa A, clasa A contine o metoda calificata cu 'virtual', cum poate fi calificata metoda cu acelasi nume si semnatura din clasa B, pentru a nu avea eroare sau avertisment de compilare?",
+        "answers": {
+          "a)": "override",
+          "b)": "sealed",
+          "c)": "includind din celelalte raspunsuri",
+          "d)": "virtual"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Crearea unui partener",
+        "answers": {
+          "a)": "se fac il local static",
+          "b)": "se fac il clase de baza",
+          "c)": "si definit concatenate static",
+          "d)": "si definit metode partiale"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Ati in clase abstracte si care contine declaratii de metode abstracte, Cum din derivatele de mai jos nu permit ca arie o clasa concreta (instanfiabila) si derivata din a se am instanteze pornoinasc:",
+        "answers": {
+          "a)": "Declara in derivata aceeasi metode componente, si nu dea o fira fara calificare, a avea poate de cel de accee",
+          "b)": "Declara in derivata ca aceeasi fara de parametrii si nu diter, fara nici calificare, a avea poate de cel de accee",
+          "c)": "Declara in derivata ca aceeasi fara de parametrii si nu diter si cu 'public ca abstract'",
+          "d)": "Declara in derivata ca aceeasi semnatura si cu calific cu override",
+          "e)": "Declara din calauliile semnatura"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre destructori",
+        "answers": {
+          "a)": "Nu konnexele pentru garbage collector, destructorul leur reparte memoria",
+          "b)": "Se bordereze pe metoda pentru Finalize definita in clasa System.Object",
+          "c)": "Se pot declara pentru tipuri derivate definite de utilizator",
+          "d)": "Necesul din celelalte raspunsuri",
+          "e)": "Se pot declara pentru tipuri interfete"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Pentru exemplu il definirea pe care cu clasa MyClass: void Test () { int i = 3; void Hi () { x = x * x; i++; } Hi (); Console.Write(i); }",
+        "answers": {
+          "a)": "a != 4 i = 4",
+          "b)": "a != 9 sunt = 4",
+          "c)": "a = 9 si i = 4 = 9",
+          "d)": "a dresee la complaire",
+          "e)": "a = 9 si i = 4 si i = 1",
+          "f)": "Menaed din celelalte raspunsuri"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre clase statice",
+        "answers": {
+          "a)": "Nu fac it clasa derivate",
+          "b)": "Nu include din instante restrictari",
+          "c)": "Nu fac it direct de baze",
+          "d)": "Nu sune metodoforte static, au parametre",
+          "e)": "Nu sune metodoforte",
+          "f)": "Nu sune metodoforte"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre proprietati",
+        "answers": {
+          "a)": "Nu fac it statice",
+          "b)": "Nu fac le metile vezi",
+          "c)": "Nu fac it metile vezi",
+          "d)": "Nu euma pentru surfiace si petate si norme calificate ca internal",
+          "e)": "Nu fac le pentru surfiace ca internal si norme calificate ca protected"
+        },
+        "correct": [
+          "d)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Despre proprietati ca membri ai unei clase:",
+        "answers": {
+          "a)": "Pot fi write only",
+          "b)": "Pot avea get internal si set protected",
+          "c)": "Pot fi calificate cu protected internal",
+          "d)": "Pot fi adnotate cu atribute"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Pentru o clasa abstracta:",
+        "answers": {
+          "a)": "Poate contine constructor static cu implementare",
+          "b)": "Niciunul din celelalte raspunsuri",
+          "c)": "Nu poate contine metode cu implementare",
+          "d)": "Nu poate contine constructor instanta cu implementare"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre campuri calificate cu const in cadrul unei clase:",
+        "answers": {
+          "a)": "Sunt campuri instanta",
+          "b)": "Sunt campuri statice",
+          "c)": "Sunt implicit private",
+          "d)": "Sunt implicit publice"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre clase statice:",
+        "answers": {
+          "a)": "Pot servi drept clase de baza",
+          "b)": "Contin doar membri statici",
+          "c)": "Pot fi instantiate",
+          "d)": "Nu pot contine indexatori"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Un spatiu de nume poate contine:",
+        "answers": {
+          "a)": "Doar alte spatii de nume",
+          "b)": "Doar clase",
+          "c)": "Tipuri structura",
+          "d)": "Doar obiecte",
+          "e)": "Direct metode cu implementare"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre campurile unei clase:",
+        "answers": {
+          "a)": "Campurile statice ale unei clase se pot accesa sub forma numeInstanta.numeCampStatic, unde numeInstanta este numele unei variabile, instanta a clasei respective",
+          "b)": "Campurile instanta readonly pot fi initializate in constructor de instanta",
+          "c)": "Daca clasa continatoare e statica, atunci campurile din ea trebuie sa fie si ele statice",
+          "d)": "Nu pot fi de tipul clasei continatoare",
+          "e)": "Ciclul while(expresie)... executa corpul sau cel putin odata"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Care din afirmatiile de mai jos sunt adevarate despre instructiuni?",
+        "answers": {
+          "a)": "Instructiunea using se poate folosi doar pentru obiecte al caror tip implementeaza interfata Disposable",
+          "b)": "Instructiunea using apeleaza la finalul blocului metoda Dispose() a obiectului achizitionat la inceputul instructiunii",
+          "c)": "Instructiunea using se poate folosi doar pentru obiecte al caror tip implementeaza interfata IDisposable",
+          "d)": "Instructiunea using se poate folosi doar pentru obiecte al caror tip au definit destructor"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre spatii de nume:",
+        "answers": {
+          "a)": "Putem importa selectiv doar o parte din tipurile continute in spatiile de nume",
+          "b)": "Pot contine alte spatii de nume",
+          "c)": "Tipurile declarate intr-un spatiu de nume au grad de vizibilitate implicit internal",
+          "d)": "Tipurile declarate intr-un spatiu de nume au grad de vizibilitate implicit public",
+          "e)": "Tipurile declarate intr-un spatiu de nume au grad de vizibilitate implicit private"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre indexatori:",
+        "answers": {
+          "a)": "Pot fi statici",
+          "b)": "Pot fi calificati cu protected internal, in anumite conditii",
+          "c)": "Pot fi calificati cu virtual, in anumite conditii",
+          "d)": "Pot fi cu auto-implementare"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "Un constructor static poate fi definit doar pentru clase statice",
+          "b)": "Un constructor static nu poate avea niciun calificator de acces, nici macar private",
+          "c)": "Un constructor static se va apela cel mult odata intr-o aplicatie",
+          "d)": "Un constructor static se va apela de fiecare data cand se refera o instanta a tipului respectiv sau un camp static din tipul in care e definit"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre clasele statice:",
+        "answers": {
+          "a)": "Permit declararea de constructori instanta privati",
+          "b)": "Pot contine campuri calificate cu const",
+          "c)": "Pot contine campuri calificate static readonly",
+          "d)": "Pot contine destructor"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Pentru o clasa abstracta:",
+        "answers": {
+          "a)": "Nu poate contine metode cu implementare",
+          "b)": "Nu pot contine constructor static cu implementare",
+          "c)": "Poate contine constructor instanta cu implementare",
+          "d)": "Poate contine metoda calificata cu abstract"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Am o clasa nestatica, nederivata explicit din nimic si in care imi declar un singur constructor instanta, fara parametri si privat. Ce este adevarat?",
+        "answers": {
+          "a)": "chiar daca nu adaugam niciun alt constructor, se poate ca o clasa sa o mosteneasca",
+          "b)": "se poate ca un tip structura sa o mosteneasca",
+          "c)": "poate contine destructor",
+          "d)": "se poate declara inca un constructor static"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre tipurile clasa:",
+        "answers": {
+          "a)": "Sunt tipuri referinta",
+          "b)": "Sunt derivate (direct sau indirect) din tipul System.Object",
+          "c)": "O clasa scrisa intr-un spatiu de nume are implicit grad de vizibilitate private",
+          "d)": "O clasa imbricata este implicit internal"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre parametrii trimisi unei metode:",
+        "answers": {
+          "a)": "Parametrii trimisi prin ref trebuie sa fie initializati inainte de apelul metodei",
+          "b)": "Parametrii trimisi prin out pot sa nu fie initializati inainte de apelul metodei",
+          "c)": "Parametrii care nu sunt trimisi prin ref sau out sunt trimisi astfel: cei de tip valoare prin valoare, cei de tip referinta prin referinta",
+          "d)": "Putem avea oricati parametri calificati cu params si acestia se pun la finalul listei de parametri"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre parametrii formali ai unei metode:",
+        "answers": {
+          "a)": "Pot fi declarati cu valori initiale date",
+          "b)": "Un parametru de tip generic poate primi valoare implicita sub forma: T x = default(T)",
+          "c)": "Un parametru de tip generic al unei metode poate primi valoare implicita sub forma: T x = null",
+          "d)": "Nu pot fi adnotati cu atribute"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Legat de instructiunea using:",
+        "answers": {
+          "a)": "Permite blocarea de resurse in lucrul cu fire de executie",
+          "b)": "Apeleaza automat destructorul, la terminarea blocului de instructiuni",
+          "c)": "Se refera la operatia de boxing",
+          "d)": "Niciunul din celelalte raspunsuri",
+          "e)": "Nu permite folosirea de variabile de tip structura"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Avem codul de mai jos. Care din urmatoarele sunt adevarate? Person r = new Person(\"Rafael\"); {LastName = \"Popescu\", Age = 25 };",
+        "answers": {
+          "a)": "Obligatoriu avem un constructor fara parametri",
+          "b)": "Obligatoriu tipul Person este clasa",
+          "c)": "Tipul Person poate fi clasa abstracta",
+          "d)": "Obligatoriu proprietatea Age este de tip int"
+        },
+        "correct": []
+      },
+      {
+        "question": "Despre metode partiale:",
+        "answers": {
+          "a)": "Necesita tipuri de date partiale",
+          "b)": "Sunt implicit publice",
+          "c)": "Sunt implicit statice",
+          "d)": "Nu exista metode partiale"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre clase abstracte:",
+        "answers": {
+          "a)": "Pot fi instantiate",
+          "b)": "Pot avea constructor cu implementare",
+          "c)": "Pot declara metode abstracte",
+          "d)": "Pot contine metode cu implementare asociata"
+        },
+        "correct": [
+          "b)"
+        ]
+      }
+    ]
+  },
+    "Polimorfism. Structuri": {
+    "questions": [
+      {
+        "question": "Relativ la un tip structura",
+        "answers": {
+          "a)": "poate avea destructor",
+          "b)": "poate sa implementeze interfete",
+          "c)": "poate contine suprascrieri de metode polimorfice",
+          "d)": "poate fi derivate",
+          "e)": "orice valore de tip structura se aloca pe stiva",
+          "f)": "o metoda",
+          "g)": "un tip de date",
+          "h)": "un tip referinta"
+        },
+        "correct": [
+          "b)",
+          "g)"
+        ]
+      },
+      {
+        "question": "Ce interfata trebuie sa implementeze un tip de date pt a se putea folosi in conjunctie cu...",
+        "answers": {
+          "a)": "IEnumerator",
+          "b)": "IEnumerable",
+          "c)": "ICollection",
+          "d)": "IList"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce se poate declara intr-o interfata?",
+        "answers": {
+          "a)": "contructori instanta",
+          "b)": "destructori",
+          "c)": "constructori static",
+          "d)": "metode"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Relativ la structuri:",
+        "answers": {
+          "a)": "o astfel de variabila poate sa contina instanta de tipul ei",
+          "b)": "pot define constructor cu parametric",
+          "c)": "pot define constructor instanta fata parametrii",
+          "d)": "o variabila locala de tip structura se deloca de garbage collector",
+          "e)": "permite upcasting object"
+        },
+        "correct": [
+          "b)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Metodele declarate intr-o interfata au grad de acces:",
+        "answers": {
+          "a)": "public",
+          "b)": "private",
+          "c)": "protected",
+          "d)": "internal",
+          "e)": "protected internal"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre variabilele locale de tip structura?",
+        "answers": {
+          "a)": "se aloca in heap si permit valoare de null",
+          "b)": "se aloca pe stiva si nu permit valoarea de null",
+          "c)": "se aloca pe heap si nu permit valoare de null",
+          "d)": "se aloca pe stiva si permit valoare de null"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Daca se apeleaza operatorul as pt intantiere de clase care nu se afla in relatie de mostenire, ce se obtine?",
+        "answers": {
+          "a)": "obiectul aflat in stanga lu as",
+          "b)": "o referinta la clasa aflata in dreapta lui as",
+          "c)": "null",
+          "d)": "0",
+          "e)": "true sau fals"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Ce fel de declaratii poate sa contina o interfata?",
+        "answers": {
+          "a)": "constructori de instant",
+          "b)": "contructori static",
+          "c)": "metode",
+          "d)": "proprietati",
+          "e)": "evenimente",
+          "f)": "indexatori",
+          "g)": "destructori"
+        },
+        "correct": [
+          "c)",
+          "d)",
+          "e)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Ce nu poate sa contina un tip interfata?",
+        "answers": {
+          "a)": "declaratii de indexatori",
+          "b)": "declaratii de metode",
+          "c)": "declaratii de evenimente",
+          "d)": "declaratii de campuri"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre mostenirea intre clase:",
+        "answers": {
+          "a)": "Constructorii de instanta se mostenesc de la clasa de baza la clasa derivata",
+          "b)": "Destructorii nu se mostenesc",
+          "c)": "Valorile campurilor private din clasa de baza nu pot fi modificate in niciun fel din clasele derivate",
+          "d)": "Operatorii supraincarcati se mostenesc"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Avem o clasa B in care se defineste o metoda calificata cu virtual. Ce calificator putem scrie intr-o clasa D derivata din B, pentru metoda cu acelasi antet, pentru a nu avea eroare sau avertisment la compilare?",
+        "answers": {
+          "a)": "virtual",
+          "b)": "new",
+          "c)": "override",
+          "d)": "sealed"
+        },
+        "correct": [
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre tipuri structura:",
+        "answers": {
+          "a)": "Nu pot implementa tip interfata",
+          "b)": "Programatorul poate define constructor instanta fara parametri",
+          "c)": "Pot fi generice",
+          "d)": "Nu pot contine campuri de tipul structurii curente",
+          "e)": "Se pot arunca pe post de exceptii"
+        },
+        "correct": [
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre tipurile interfata:",
+        "answers": {
+          "a)": "Nu pot contine declaratie de evenimente",
+          "b)": "Pot contine declaratie de destructor",
+          "c)": "Pot contine declaratie de evenimente",
+          "d)": "Pot contine declaratii de proprietati"
+        },
+        "correct": [
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre implementari explicite ale metodelor din interfete:",
+        "answers": {
+          "a)": "Nu exista conceptul de implementare explicita",
+          "b)": "Se aplica doar metodelor calificate ca publice in interfata",
+          "c)": "Devin apelabile dupa ce se face conversie de la clasa la interfata (upcasting), de exemplu cu operatorul as",
+          "d)": "Nu se pot apela din exteriorul clasei ce contine implementarea explicita sub forma numeObject.NumeMetoda, unde numeObject refera o instanta a clasei ce contine implementarea"
+        },
+        "correct": [
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre tipuri interfata:",
+        "answers": {
+          "a)": "Implementarea explicita de metode in clase se face prin metode calificate cu private",
+          "b)": "Implementarea explicita de metode in clase se face prin metode calificate cu public",
+          "c)": "Implementarea explicita de metode in clase se face prin metode care nu au niciun calificator de acces",
+          "d)": "Permit conversie implicita de la tip interfata la tip care implementeaza interfata"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre derivarea de clase:",
+        "answers": {
+          "a)": "Clasele calificate cu sealed nu pot servi drept clase de baza",
+          "b)": "Clasele calificate cu final nu pot servi drept clase de baza",
+          "c)": "O clasa poate fi derivata explicit din mai multe clase de baza",
+          "d)": "Daca o clasa nu are ziciun constructor instanta declarat, nu poate fi clasa de baza"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre tipuri structura:",
+        "answers": {
+          "a)": "Pot implementa tipuri interfata",
+          "b)": "Pot contine constructor de instanta cu parametri",
+          "c)": "Pot fi tipuri de baza",
+          "d)": "Pot mosteni o clasa definita de programator"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre proprietati ca membri ai unei clase:",
+        "answers": {
+          "a)": "Pot fi calificate cu private protected",
+          "b)": "Pot fi decorate cu atribute",
+          "c)": "Pentru cele cu implementare explicita, pot fi write-only",
+          "d)": "Pot avea get public si set private"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)"
+        ]
+      }
+    ]
+  },
+    "Delegati. Evenimente. Except": {
+    "question": [
+      {
+        "question": "Pentru urmatoarele 4 linii de cod: byte a=127; checked { a++ } Ce anume este adevarat?",
+        "answers": {
+          "a)": "Eroare la compilare",
+          "b)": "Eroare la rulare",
+          "c)": "Exceptie aruncata la rulare",
+          "d)": "depinde mult de notarile compilatorului"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Cum procedez daca vreau sa arat ca o metoda poate arunca o exceptie?",
+        "answers": {
+          "a)": "folosesc un atribut",
+          "b)": "folosesc\"throws\"dupa numele metodei",
+          "c)": "folosesc\"throw\"dupa numele metodei",
+          "d)": "folosesc catch in metoda"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Cand se executa blocul finally?",
+        "answers": {
+          "a)": "doar cand e blocul catch present",
+          "b)": "doar cand nu e blocul catch present",
+          "c)": "doar cand nu apare exceptie la blocul try",
+          "d)": "doar cand nu apare exceptie in blocul try"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Cine poate avea constructor?",
+        "answers": {
+          "a)": "intefata",
+          "b)": "clasa",
+          "c)": "structura",
+          "d)": "delegatul"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce este un delegat multicast?",
+        "answers": {
+          "a)": "o inlantuire de converii de tip",
+          "b)": "o forma de delegat in care se efectueaza apelul mai multor metode",
+          "c)": "un delegat ce returneaza void"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Din ce ce recomanda a fi derivate un tip exceptie definit de programator?",
+        "answers": {
+          "a)": "din clasa Exception",
+          "b)": "din clasa AplicationException",
+          "c)": "din clasa Throwable"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Este posibil ca intr-o metoda sa se prinda o exceptie si sa se arunce din catch un alt tip de exceptie?",
+        "answers": {
+          "a)": "Da",
+          "b)": "nu"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "In C# ce trebuie facut pt a scrie o metoda ce arunca o exceptie?",
+        "answers": {
+          "a)": "se declara din antetul metodei ca se arunca o exceptie",
+          "b)": "se foloseste obligatoriu bloc de tip catch",
+          "c)": "se foloseste obligatoriu bloc de tip try"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Obtinerea sirului de caractere continut intr-un obiect exceptie se face cu:",
+        "answers": {
+          "a)": "Message",
+          "b)": "StackTrace",
+          "c)": "TargetSite",
+          "d)": "Source"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre tipul delegat:",
+        "answers": {
+          "a)": "este tip referinta",
+          "b)": "se poate declara in cadrul unei clase",
+          "c)": "delegatii multicast pot returna orice tip predefinit",
+          "d)": "se pot declara si in afara claselor",
+          "e)": "se pot declara in interiorul interfetelor"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre exceptii:",
+        "answers": {
+          "a)": "se pot rearunca",
+          "b)": "daca sunt definite de programator, se recomanda se se deriveze direct din System.Exception",
+          "c)": "sunt tipuri referinta",
+          "d)": "suporta polimorfism de mostenire",
+          "e)": "daca sunt aruncate, se intrerupe executia intregului program",
+          "f)": "se pot arunca din constructor",
+          "g)": "daca sunt aruncate si neprinse se intrerupe executia intregului program"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)",
+          "f)",
+          "g)"
+        ]
+      },
+      {
+        "question": "Pentru tratarea de evenimente, ce anume din cele de mai jos este adevarat?",
+        "answers": {
+          "a)": "Se folosesc clase abstracte",
+          "b)": "Se folosesc delegati unicast",
+          "c)": "Se folosesc clase 'nested'",
+          "d)": "Se folosesc implementari explicite in interfete",
+          "e)": "Se folosesc delegati multicast"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre exceptii?",
+        "answers": {
+          "a)": "Un obiect de tip exceptie poate sa contina o referinta la alt obiect de tip exceptie",
+          "b)": "La prinderea unei exceptii se poate specifica o optiune de filtrare",
+          "c)": "Niciunul din celelalte raspunsuri",
+          "d)": "Daca nu se prind, duc la oprirea finului de executie in care s-au aruncat"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "d)"
+        ]
+      },
+      {
+        "question": "O exceptie prinsa poate fi rearunca",
+        "answers": {
+          "a)": "Fals",
+          "b)": "Adevarat"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre tipuri delegat:",
+        "answers": {
+          "a)": "Cei multicast trebuie sa fie fara parametri",
+          "b)": "Daca la apelarea unui delegat multicast, una din metode arunca exceptie, atunci se trece la urmatoare metoda din lant",
+          "c)": "Tratarea de evenimente se face cu delegati ce returneaza tip int",
+          "d)": "Cei multicast suporta folosirea semnului +"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre tipuri delegat:",
+        "answers": {
+          "a)": "Pot fi instantiate plecand de la metode statice",
+          "b)": "Se pot declara doar in interiorul unor clase",
+          "c)": "Tipul de metoda definit trebuie sa aiba parametru de retur void",
+          "d)": "Nu pot fi generice"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre un tip delegat declarat de utilizator?",
+        "answers": {
+          "a)": "Nu poate avea parametri de intrare",
+          "b)": "Pot pot fi folositi pentru tratarea de evenimente",
+          "c)": "Pot fi declarati generici",
+          "d)": "Cei multicast obligatoriu trebuie sa aiba tip de retur void"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat legat de exceptii si tratarea lor?",
+        "answers": {
+          "a)": "Se recomanda ca tipurile exceptie declarate de utilizator sa fie derivate direct din tipul Exception",
+          "b)": "Se pot prinde cu finally",
+          "c)": "Se pot prinde cu catch",
+          "d)": "Daca nu sunt prinse si tratate, CLR opreste firul de executie in care s-au produs"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre exceptii si tratarea lor:",
+        "answers": {
+          "a)": "Putem avea bloc try urmat de bloc finally, fara blocuri catch intre ele",
+          "b)": "Pentru prinderea lor se pot scrie blocuri catch multiple, ordinea acestor blocuri fiind: clasele exceptie cele mai jos in ierarhie apar cel mai sus in lista de blocuri de prindere",
+          "c)": "Pentru prinderea lor se pot scrie blocuri catch multiple, ordinea acestor blocuri fiind: clasele exceptie cele mai jos in ierarhie apar cel mai jos in lista de blocuri de prindere",
+          "d)": "Daca o exceptie nu e prinsa, se opreste intregul proces"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre tipul delegat:",
+        "answers": {
+          "a)": "Poate specifica tip de retur void",
+          "b)": "Poate fi declarat ca membru al unui tip interfata",
+          "c)": "Poate specifica tip de retur bool, pentru un delegat multicast"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre tipurile delegat:",
+        "answers": {
+          "a)": "Delegatii multicast au tip de retur void",
+          "b)": "Delegatii multicast se folosesc pentru tratarea de evenimente",
+          "c)": "Tipurile delegat se pot declara direct in spatii de nume",
+          "d)": "Un tip delegat este tip referinta"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre tipurile delegat?",
+        "answers": {
+          "a)": "O variabila de tip delegat poate avea valoare de null",
+          "b)": "O variabila de tip delegat multicast permite concatenarea de metode folosind +",
+          "c)": "Un tip delegat defineste o semnatura de metoda, dar nu specifica o implementare",
+          "d)": "Putem declara un tip delegat pentru o metoda care nu preia niciun parametru"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)"
+        ]
+      }
+    ]
+  },
+    "Colectii si tipuri generice": {
+    "questions": [
+      {
+        "question": "Ce pot fi declarate ca fiind generice?",
+        "answers": {
+          "a)": "Interfete",
+          "b)": "Clase",
+          "c)": "Enumerari",
+          "d)": "Delegatii",
+          "e)": "Anumite tipuri de colectie"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "d)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Cum se scrie o clasa generica, ce implementeaza explicit interfata IMyInterface negenerica, iar parametrul de generitate este de tip valoare?",
+        "answers": {
+          "a)": "class MyGenrericClass<T>:where T:value,IMyInterface",
+          "b)": "class MyGenericClass<T>:IMyInterface where T:value",
+          "c)": "class MyGenericClass:IMyInterface<T>where t:value",
+          "d)": "class MyGenericClass<T>:IMyInterface<T>where T:struct"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce se intampla cand se introduce intr-un dictionary un element cu o cheie care exista deja:",
+        "answers": {
+          "a)": "se arunca exceptie",
+          "b)": "se supra scrie elementul existent",
+          "c)": "vechiul element cu aceeasi cheie se pastreaza si se ignora incercarea de suprascriere"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Cum anume se specifica in clauza Where faptul ca un anumit tip trebuie sa implementeze o interfata:",
+        "answers": {
+          "a)": "Where T:struct",
+          "b)": "Where T:class",
+          "c)": "Where T:new ()",
+          "d)": "Where T:NameOfBaseClass",
+          "e)": "Where T:NameOfInterface"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Pentru a prelua primele elemente dintr-o colectie, care satisfac o anume conditie, care metoda se foloseste",
+        "answers": {
+          "a)": "Skip",
+          "b)": "SkipWhile",
+          "c)": "Take",
+          "d)": "TakeWhile",
+          "e)": "SelectMany"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Incepand cu ce versiune a limbajului C# se poate compila codul de mai jos: List<String> list = new List<String>(){\"a\", \"b\", \"c\"}",
+        "answers": {
+          "a)": "C# 1.0",
+          "b)": "C# 2.0",
+          "c)": "C# 2.5",
+          "d)": "C# 3.0",
+          "e)": "C# 4.0"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Unde se mai poate folosi metoda \"default\"?",
+        "answers": {
+          "a)": "la enumerari",
+          "b)": "la tipuri generice",
+          "c)": "la instructiunea if",
+          "d)": "in antetul metodelor ce realizeaza implementarea explicita"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce proprietate trebuie sa indeplineasca o clasa pentru a permite iterarea cu \"foreach\" peste o instanta a sa?",
+        "answers": {
+          "a)": "sa implementeze ICollection",
+          "b)": "sa contina o colectie de elemente",
+          "c)": "sa aiba un indexator",
+          "d)": "niciunul din raspunsurile anterioare"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Am codul: class A{ public <AAA> void F(){ Console.WriteLine(\"A.F\"); } } class B : A { public <BBB> void F(){ Console.WriteLine(\"B.F\"); } } A x = new B(); x.F(); Ce se poate scrie in loc de <AAA> si respectiv <BBB> pentru a nu avea erori sau avertismente de compilare, iar la rulare sa se afiseze \"A.F\"?",
+        "answers": {
+          "a)": "virtual, override",
+          "b)": "virtual, new",
+          "c)": "nimic, nimic",
+          "d)": "nimic, new",
+          "e)": "nimic, sealed",
+          "f)": "virtual, override sealed"
+        },
+        "correct": [
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Care din secventele de mai jos produce colectia de numere de la 100 la 1, in aceasta ordine?",
+        "answers": {
+          "a)": "var a = Enumerable.Range(100, 1, -1);",
+          "b)": "var a = Enumerable.Range(1, 100).Reverse();",
+          "c)": "var a = Enumerable.Range(1, 100);",
+          "d)": "var a = Enumerable.Range(1, 100].Reverse();"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Fiecare iteratie a ciclului foreach apeleaza metoda numita:",
+        "answers": {
+          "a)": "Current",
+          "b)": "MoveNext",
+          "c)": "GetEnumerator",
+          "d)": "Next"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre tipuri generice in C#:",
+        "answers": {
+          "a)": "Se mai numesc si tipuri template",
+          "b)": "Pot folosi destructori ca parametri de genericitate",
+          "c)": "Pot fi doar clase generice",
+          "d)": "Pot avea tipuri delegate ca parametri de genericitate"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Pentru ce putem specifica parametri de genericitate?",
+        "answers": {
+          "a)": "Pentru constructori statici",
+          "b)": "Pentru destructori",
+          "c)": "Pentru metode statice in cadrul claselor statice",
+          "d)": "Pentru campuri in cadrul claselor statice"
+        },
+        "correct": [
+          "c)"
+        ]
+      }
+    ]
+  },
+    "ADO.NET": {
+    "questions": [
+      {
+        "question": "Ce face parte dintr-un furnizor de date ADO.NET(ADO.NET data provider)",
+        "answers": {
+          "a)": "DataAdapter",
+          "b)": "Command",
+          "c)": "Connection",
+          "d)": "DataSet",
+          "e)": "DataReader",
+          "f)": "DataTable"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Dupa inchiderea unui obiect de tip DataReader conexiunea folosita este automat inchisa",
+        "answers": {
+          "a)": "da",
+          "b)": "nu",
+          "c)": "depinde"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Cum anume se specifica faptul ca un obiect de tip Command din ADO.NET se refera la procedura static?",
+        "answers": {
+          "a)": "prin proprietatea CommandTest",
+          "b)": "prin proprietatea CommandType",
+          "c)": "nu se poate"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Notatia la un obiect DataReader:",
+        "answers": {
+          "a)": "permite determinarea faptului ca intr-o inregistrare o coloana permite valoarea null",
+          "b)": "Nu premite aducerea volorilor in functie de numele coloanelor",
+          "c)": "Nu permite aducerea de mai multe seturi de inregistrari",
+          "d)": "Este doar pentru citirea datelor"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Metoda folosita pentru umplerea unui DataTable folosind un contact de tipul…este…",
+        "answers": {
+          "a)": "DataAdapter,Read",
+          "b)": "DataReader,Read",
+          "c)": "DataAdapter,Update",
+          "d)": "DataAdapter,GetData",
+          "e)": "Connection,GetData"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Cum se creeaza un obiect de tip DataReader?",
+        "answers": {
+          "a)": "apel de constructor",
+          "b)": "apel de metoda",
+          "c)": "apel de proprietate",
+          "d)": "apel de indexator"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Un obiect SqlDataReader se creeza prin",
+        "answers": {
+          "a)": "apel de constructor cu parametrii",
+          "b)": "apel de constructor fara parametrii",
+          "c)": "apel de metoda statica",
+          "d)": "niciunul din raspunsuri"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Pt a accesa programmatic stringul de conexiune din fisierul de configurare trebuie sa folosesc clasa:",
+        "answers": {
+          "a)": "System.ConfigurationManager",
+          "b)": "System.Configuration.ConfigurationManager",
+          "c)": "System.Configuration.Manager",
+          "d)": "System.Manager.Configuration"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat?",
+        "answers": {
+          "a)": "DataReader necesita conexiune deschisa la baza de date",
+          "b)": "DataAdapter necesita conexiune deschiza la baza de date",
+          "c)": "pe perioada accesarii datelor din DataSet trebuie conexiune deschisa la baza de date",
+          "d)": "DataReader permite modificarea datelor",
+          "e)": "pot modifica datele dintr-o tabela folosind SqlCommand+SqlConnection"
+        },
+        "correct": [
+          "a)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Pt un obiect SqlCommand, care este metoda care obtine un obiect de tip XmlReader din baza de date?",
+        "answers": {
+          "a)": "ExecuteXml",
+          "b)": "ExecuteXMLReader",
+          "c)": "ExecuteQuery",
+          "d)": "ExecuteNonQuery",
+          "e)": "ExecuteReader",
+          "f)": "niciuna de mai sus"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Pot scrie stringul de conexiune in fisierul de configurare in sectiunile:",
+        "answers": {
+          "a)": "connectionString",
+          "b)": "connectionStrings",
+          "c)": "appSetting",
+          "d)": "appSetings"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Pentru un obiect de tip DataAdapter ese nevoie de deschidere si inchidere explicta a conexiunii",
+        "answers": {
+          "a)": "adevarat",
+          "b)": "fals"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Trecerea la urmatorul set de date dintr-un obiect SqlDataReader se face cu:",
+        "answers": {
+          "a)": "Read()",
+          "b)": "NextResult()",
+          "c)": "nu se poate"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Obtinerea unui camp de tip int dintr-o tabela ASQServer 2005 se face cu:",
+        "answers": {
+          "a)": "GetString",
+          "b)": "GetInt8",
+          "c)": "GetInt16",
+          "d)": "GetInt32",
+          "e)": "GetInt64",
+          "f)": "GetDouble"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Inchiderea obiectului de tip SqlDataReader va duce la inchiderea automata a obiectului SqlConnection asociat",
+        "answers": {
+          "a)": "adevarat",
+          "b)": "fals",
+          "c)": "depinde"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Un obiect de tip DataAdapter umple cu date un obiect de tipu:",
+        "answers": {
+          "a)": "Connection",
+          "b)": "Command",
+          "c)": "DataReader",
+          "d)": "DataSet"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Un obiect de tip DataReader este folosit pt acces de tip:",
+        "answers": {
+          "a)": "conectat",
+          "b)": "deconectat"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Pentru conectarea la un fisier Acces mdb se foloseste un provider de tipul:",
+        "answers": {
+          "a)": "OleDbConnection",
+          "b)": "SQLConnection",
+          "c)": "OracleDataProvider",
+          "d)": "MySQLDataProvider"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce este ConnectionPooling",
+        "answers": {
+          "a)": "renuntarea la o conexiune daca aceasta dureaza prea mult",
+          "b)": "gruparea de conexiuni in vederea reutilizarii",
+          "c)": "creerea dinamica de conexiuni pe grupuri de servere",
+          "d)": "creerea dinamica de conexiuni pe grupuri de baze de date pe acelasi server"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Daca in urma executiei se obtine un scalar, care este modalitatea cea mai eficienta de obtinere a lui:",
+        "answers": {
+          "a)": "apel de ExecuteXmlReader()",
+          "b)": "apel de ExecuteReader()",
+          "c)": "apel de ExecuteNonQuerry()"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Pentru a umple cu date un obiect de tip DataSet se foloseste un obiect de tipul:",
+        "answers": {
+          "a)": "Command",
+          "b)": "Adapter",
+          "c)": "DataReader",
+          "d)": "Transaction"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Umplerea cu date a unui obiect DataSet se face cu metoda:",
+        "answers": {
+          "a)": "RunQuerry()",
+          "b)": "ExecuteQuerry()",
+          "c)": "FillDataSet()",
+          "d)": "Fill()"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Pentru reflectarea schimbarilor revenite pe DataSet in baza de date se foloseste medota:",
+        "answers": {
+          "a)": "Update()",
+          "b)": "Fill()",
+          "c)": "RunQuerryies()",
+          "d)": "CommitAllChanges()"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce actiune se poate specifica pentru o restrictive de tip ForeignKeyContraint:",
+        "answers": {
+          "a)": "Rule Cascade",
+          "b)": "Rule NullValue",
+          "c)": "Rule SetDefault",
+          "d)": "Rule Ignore"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Care sunt comenzile care se folosesc in context de tranzactie:",
+        "answers": {
+          "a)": "Begin",
+          "b)": "End",
+          "c)": "Rollback",
+          "d)": "Undo Transaction",
+          "e)": "Commit"
+        },
+        "correct": [
+          "a)",
+          "c)",
+          "e)"
+        ]
+      },
+      {
+        "question": "Pentru accesarea unui fisier de tip excel, ce furnizor de date (data provider) se recomanda?",
+        "answers": {
+          "a)": "ODBC Data Provider",
+          "b)": "OleDb Data Provider",
+          "c)": "Oracle Data Provider",
+          "d)": "SQL Data Provider",
+          "e)": "MySql",
+          "f)": "Niciunul din celelalte raspunsuri"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Despre DataSet:",
+        "answers": {
+          "a)": "e un tip care face parte din furnizorul de date",
+          "b)": "permite definirea in mod programmatic a tabelelor si relatiilor dintre ele",
+          "c)": "poate contine constrangeri",
+          "d)": "permite definirea de relatii intre tabele",
+          "e)": "obiectele din acest tip lucreaza conectat la baza de date"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre clasele de tip Connection",
+        "answers": {
+          "a)": "Nu fac parte din furnizorul de date",
+          "b)": "Pot fi folosite pentru a genera obiect de tranzactie",
+          "c)": "Implementeaza IDisposable",
+          "d)": "Exista situatii in care pot inchide si deschide automat",
+          "e)": "Se potinchide inainte de inchiderea obiectului DataReader care le-a folosit"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Pentru executarea unei comenzi de inserare in baza de date, ce metoda a unui obiect de comanda folosesc",
+        "answers": {
+          "a)": "ExecuteQuery",
+          "b)": "ExecuteXmlQuery",
+          "c)": "ExecuteXMLQuery",
+          "d)": "ExecuteReader"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Daca am un oboiect conexiune la un server de baze de date, pot sa:",
+        "answers": {
+          "a)": "Ce inchiderea ei folosind Close()",
+          "b)": "Cer inchiderea ei folosind Dispose()",
+          "c)": "Pot sa schimb baza de date la care ma conectez, fara a fi nevoie sa inched si redeschid conexiunea",
+          "d)": "Pot sa creez un obiect de comanda pentru acel server"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce face parte dintr-un furnizor de date",
+        "answers": {
+          "a)": "DataSet",
+          "b)": "DataAdapter",
+          "c)": "Connection",
+          "d)": "Command",
+          "e)": "CommandBuilder",
+          "f)": "DataReader",
+          "g)": "DataTable"
+        },
+        "correct": [
+          "b)",
+          "c)",
+          "d)",
+          "e)",
+          "f)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre un obiect de timp Command din cadrul unui furnizor de date:",
+        "answers": {
+          "a)": "Are proprietatea read-only Parameters",
+          "b)": "Are proprietatea read-write Parameters",
+          "c)": "Are proprietatea write-only Parameters",
+          "d)": "In cazul in care este de tip SQLCommand permite aducerea unui obiect de tip XMLReader prin metoda ExecuteXml()"
+        },
+        "correct": [
+          "b)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre DataAdapter:",
+        "answers": {
+          "a)": "Are nevoie de patru obiecte Command pentru a aduce date din baza de date",
+          "b)": "Lucreaza conectat la baza de date",
+          "c)": "e parte unui furnizor de date",
+          "d)": "este componenta externa furnizorului de date"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Pentru accesarea unei baze de date Access, este nevoie de ADO.NET data provider(furnizor de date):",
+        "answers": {
+          "a)": "SQL",
+          "b)": "Oracle",
+          "c)": "MySql",
+          "d)": "OleDb",
+          "e)": "JDBC"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Pentru a reflecta schimbarilor survenite pe DataSet in baza de data se foloseste metoda:",
+        "answers": {
+          "a)": "Fill()",
+          "b)": "RunQueries()",
+          "c)": "ComitChanges()",
+          "d)": "Commit()",
+          "e)": "Update()"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre un obiect de tip SqlCOnnection:",
+        "answers": {
+          "a)": "Tipul lui implementeaza interfata Idisponsable",
+          "b)": "Poate furniza un obiect de tip SqlTransaction",
+          "c)": "in stringul de conexiune , \"Data Source\" e echivalenta cu \"Initial Catalog\"",
+          "d)": "Are ConnectionTimeout implicit cu valoarea 20"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "In cazul unui obiect de tip Data Reader, cu ce se trece la urmatoarea inregistrare?",
+        "answers": {
+          "a)": "NextResult()",
+          "b)": "Next()",
+          "c)": "GetByte()",
+          "d)": "niciunul din celelalte raspunsuri"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat legat de tipul DataSet?",
+        "answers": {
+          "a)": "Permite lucrul deconectat de baza de date",
+          "b)": "Necesita folosirea de tranzactii",
+          "c)": "Necesita existenta unei baze de date, pentru a avea de unde sa primeasca date",
+          "d)": "Nu permit specificarea de constrangeri de tip cheie straina",
+          "e)": "Este dependent de serverul de baze de date"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Care este avantajul stocarii stringului de conexiune in fisierul de configurare, fata de a-l scrie direct in codul C#?",
+        "answers": {
+          "a)": "La modificare, recompilarea codului se face automat si mai rapid",
+          "b)": "Ati raspuns decat cele de mai sus",
+          "c)": "Permite evitarea fenomenului de SQL injection",
+          "d)": "Permite verificarea corectitudinii continutului lui la compilare",
+          "e)": "Permite inchiderea automata a conexiunilor"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Ce este adevarat despre un obiect SqlDataReader?",
+        "answers": {
+          "a)": "Se obtine prin apel de constructor",
+          "b)": "Permite stergerea datelor din baza de date",
+          "c)": "Niciunul din celelalte raspunsuri",
+          "d)": "Permite modificarea datelor in baza de date",
+          "e)": "Permite inserarea datelor in baza de date"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Un obiect de tip DataAdapter umple cu date un obiect de tipul:",
+        "answers": {
+          "a)": "CommandBuilder",
+          "b)": "Connection",
+          "c)": "DataReader",
+          "d)": "Command",
+          "e)": "Niciunul din celelalte raspunsuri"
+        },
+        "correct": [
+          "e)"
+        ]
+      },
+      {
+        "question": "Care din cele de mai jos sunt variante corecte de initializare a unui obiect de tip SqlConnection?",
+        "answers": {
+          "a)": "SqlConnection cn = new SqlConnection(@\"Data Source=serverBD; Database=Northwind;User id=sa;Password=parola\");",
+          "b)": "SqlConnection cn = new SqlConnection(@\"server=serverBD; Initial catalog=Northwind;uid=sa;pwd=parola\");",
+          "c)": "SqlConnection cn = new SqlConnection(@\"data-source=serverBD; db=Northwind;user=sa;pwd=parola\");",
+          "d)": "var cn = new SqlConnection(@\"srv=serverBD; Initial catalog=Northwind;uid=sa;pwd=parola\");"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "In expresia System.Configuration.ConfigurationManager.AppSettings[\"con\"], ce anume se foloseste?",
+        "answers": {
+          "a)": "O proprietate de tip string (AppSettings)",
+          "b)": "Un constructor de instanta (AppSettings)",
+          "c)": "Un indexator (AppSettings) care prea string si returneaza string",
+          "d)": "Un tip de date similar cu un dictionar care permite regasirea dupa o cheie de tip string"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "ADO.NET permite:",
+        "answers": {
+          "a)": "Lucrul conectat la baze de date",
+          "b)": "Lucrul deconectat de baze de date",
+          "c)": "Popularea de obiecte de tip DataSet",
+          "d)": "Operarea cu servere de baze de date care nu sunt Microsoft"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "In ce proprietate a unui obiect de tip SqlCommand se precizeaza detaliile de conectare (server, credentiale, baza de date)?",
+        "answers": {
+          "a)": "DataBase",
+          "b)": "ConnectionString",
+          "c)": "ConnectionStrings",
+          "d)": "DataAdapter"
+        },
+        "correct": [
+          "b)"
+        ]
+      },
+      {
+        "question": "Executarea unei comenzi de inserare in baza de date, pornind de la un obiect SqlCommand, se face folosind metoda:",
+        "answers": {
+          "a)": "Execute()",
+          "b)": "ExecuteReader()",
+          "c)": "ExecuteNonQuery()",
+          "d)": "Run()"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Pentru serverele de baze de date care permit proceduri stocate, apelarea de procedura stocata folosind facilitate din ADO.NET este posibila:",
+        "answers": {
+          "a)": "Adevarat",
+          "b)": "Fals"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Despre un obiect de tip SqlDataReader:",
+        "answers": {
+          "a)": "Lucreaza conectat la baza de date",
+          "b)": "Acceseaza datele in stil forward only",
+          "c)": "Prin proprietatea HasRows determina daca readerul contine cel putin o inregistrare",
+          "d)": "Poate contine rezultate de la mai multi seturi de inregistrari, din mai multe tabele"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre clasele de tip DataAdapter:",
+        "answers": {
+          "a)": "Fac parte din furnizorii de date (data providers)",
+          "b)": "Lucreaza deconectat de baza de date",
+          "c)": "Permit aducerea, modificarea, stergerea si inserarea de date (d)intr-o baza de date",
+          "d)": "Sunt clase statice"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre tranzactii in baza de date:",
+        "answers": {
+          "a)": "Proprietatea ca toate operatiile din trazanctie trebuie sa aiba success sau sa esueze impreuna se numeste consistenta",
+          "b)": "Proprietatea ca o tranzactie duce baza de date dintr-o stare stabila in alta se numeste izolare",
+          "c)": "Proprietatea ca nicio trazactie nu ar trebui sa afecteze o alta care ruleaza in acelasi timp se cheama atomicitate"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Ce faco parte dintr-un furnizor de date ADO.NET (ADO.NET data provider)?",
+        "answers": {
+          "a)": "DataSet",
+          "b)": "DataTable",
+          "c)": "DataTableReader",
+          "d)": "DataColumn"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre clasa DataSet:",
+        "answers": {
+          "a)": "Face parte din data provider",
+          "b)": "Este dependent de tipul de baze de date",
+          "c)": "Poate contine inregistrari din mai multe tabele",
+          "d)": "Lucreaza conectat la baza de date"
+        },
+        "correct": [
+          "c)"
+        ]
+      }
+    ]
+  },
+    "LINQ": {
+    "questions": [
+      {
+        "question": "Aveti o colectie 'g' de obiecte de tip Student pentru tipul Student avem proprietatea Varsta de tip int si Gen de tip enumerare Gen, cu campurile Masculin si Feminin. Cum se aduc studentii de gen feminin, cu varsta intre 20 (inclusiv) si 25 de ani (inclusiv)?",
+        "answers": {
+          "a)": "var studenti = g.Where(s => s.Gen == Gen.Feminin).Where(s => s.Varsta >= 20).Where(s => s.Varsta <= 25);",
+          "b)": "var studenti = g.Where(s.Gen == Gen.Feminin && s.Varsta >= 20 && s.Varsta <= 25);",
+          "c)": "var studenti = g.Where(s => s.Gen == Gen.Feminin && s.Varsta >= 20 and s.Varsta <= 25);",
+          "d)": "var studenti = from s in grupa where s.Gen == Gen.Feminin && s.Varsta >= 20 && s.Varsta <= 25 select s;",
+          "e)": "folosind junctiuni (Join)"
+        },
+        "correct": [
+          "a)",
+          "d)"
+        ]
+      },
+      {
+        "question": "In cod LINQ: Alegeti una sau mai multe optiuni:",
+        "answers": {
+          "a)": "Nu se poate cere sortarea descrescatoare a unor obiecte, dupa un criteriu specificat de programator",
+          "b)": "Nu se poate cere inversarea ordinii dintr-o secventa",
+          "c)": "Niciunul din celelalte raspunsuri",
+          "d)": "Nu se pot selecta doar elementele de indice par, dar nu mai mari de un anumit prag",
+          "e)": "Nu se poate sari peste un numar de elemente de la inceputul colectiei"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Avem: int[] tab = {1, 2, 3, 4, 5, 6}; Cum se produce un tablou (array) care contine numai valorile pare?",
+        "answers": {
+          "a)": "var y = (from x in tab where x % 2 == 0 select x).ToArray();",
+          "b)": "var y = tab.Where(x => x%2 == 0).ToArray();",
+          "c)": "var y = (from x in tab where x % 2 == 0 select x).ToList();",
+          "d)": "var y = tab.Where(x => x%2 == 0). ToList();"
+        },
+        "correct": [
+          "a)",
+          "b)"
+        ]
+      },
+      {
+        "question": "Se da un tablou 'tab' cu numere intregi. Cum se determina tabloul cu primele 5 numere pare (se presupune ca sunt minim 5 astfel de numere)?",
+        "answers": {
+          "a)": "int[] result = tab.Where(x => x%2==0).Take(5).ToArray();",
+          "b)": "int[] result = (from x in tab select x).Take(5).ToArray();",
+          "c)": "int[] result = (from x in tab where x % 2 == 0).Take(5).ToArray();",
+          "d)": "int[] result = tab. TakeWhile(x => x%2 == 0).ToArray();"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Avem tablourile de intregi tab1 cu 4 elemente si tab2 cu 3 elemente. Care din variantele de mai jos produce colectia color 12 perechi de elemente din tab1 si tab2 (toate combinatiile de valori, fiecare valoare din cate un tablou)?",
+        "answers": {
+          "a)": "var collection = from a in tab1 from b in tab2 select new { a, b };",
+          "b)": "var collection = from a in tab1 join b in tab2 select new { a, b };",
+          "c)": "var collection = from x in tab1 and y in tab 2 select new { x, y };",
+          "d)": "var collection = from i in Enumerable.Range(0, tab1.Length) from j in Enumerable.Range(0, tab2.Length) select new { a=tab1[i], b=tab1[j] };"
+        },
+        "correct": [
+          "a)"
+        ]
+      }
+    ]
+  },
+    "Atribute. Fire de executie": {
+    "questions": [
+      {
+        "question": "Care este atributul folosit pt a omite anumite apeluri de metode:",
+        "answers": {
+          "a)": "CLSCompliant",
+          "b)": "NonSerializedAttribute",
+          "c)": "ConditionalAttribute",
+          "d)": "AssemblyVersionAttribute"
+        },
+        "correct": [
+          "c)"
+        ]
+      },
+      {
+        "question": "Care este clasa folosita pentru instantierea unui fir de executie:",
+        "answers": {
+          "a)": "Thread",
+          "b)": "ThreadStart",
+          "c)": "Runnable"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Care este spatial de nume in care se gasesc tipurile de date necesare lucrului cu fire de executie:",
+        "answers": {
+          "a)": "System.Threading",
+          "b)": "System.Thread",
+          "c)": "System.Runnable"
+        },
+        "correct": [
+          "a)"
+        ]
+      },
+      {
+        "question": "Care din urmatoarele sunt nivele de prioritate pt fire de executie:",
+        "answers": {
+          "a)": "ThreadPriorityLevel.Highest",
+          "b)": "ThreadPriorityLevel.Higher",
+          "c)": "ThreadPriorityLevel.Lowest",
+          "d)": "ThreadPriorityLevel.Lower"
+        },
+        "correct": [
+          "a)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Care din urmatoarele sunt modalitati de asigurare a interblocarii:",
+        "answers": {
+          "a)": "utilizarea clasei Monitor",
+          "b)": "folosirea instructiunii Lock",
+          "c)": "folosirea clasei InterLocked"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "c)"
+        ]
+      },
+      {
+        "question": "Despre fire de executie: Alegeti o optiune:",
+        "answers": {
+          "a)": "Se bazeaza pe evenimente",
+          "b)": "Niciunul din celelalte raspunsuri",
+          "c)": "Se bazeaza pe metode cu parametri",
+          "d)": "Se definesc pe baza de delegati unicast",
+          "e)": "Necesita destructor"
+        },
+        "correct": [
+          "d)"
+        ]
+      },
+      {
+        "question": "Despre fire de executie:",
+        "answers": {
+          "a)": "Un fir de executie poate lansa alte fire de executie",
+          "b)": "Un fir de executie poate sa partajeze date cu alt fir de executie",
+          "c)": "Un fir de executie nu se poate suspenda pana la finalizarea unui alt fir de executie",
+          "d)": "Daca exista cel putin un fir de executie ruland in background, CLR nu poate opri aplicatia curenta"
+        },
+        "correct": [
+          "a)",
+          "b)",
+          "d)"
+        ]
+      },
+      {
+        "question": "Atributul predefinit la nivel de platforma .NET prin care o metoda se declara ca fiind invechita si nerecomandată se numeste:",
+        "answers": {
+          "a)": "Niciunul din celelalte raspunsuri",
+          "b)": "Deprecate",
+          "c)": "Old",
+          "d)": "DontUseThis",
+          "e)": "Deprecated"
+        },
+        "correct": [
+          "a)"
+        ]
+      }
+    ]
+  }
 }

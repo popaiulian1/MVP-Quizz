@@ -17,7 +17,16 @@ interface QuizState {
     isQuizCompleted: boolean;
 }
 
+interface Category {
+    name: string;
+    questions: QuizQuestion[];
+    count: number;
+}
+
 class QuizApp {
+    private categories: Category[] = [];
+    private allCategoriesData: any = {}; // Store all category data
+    private currentCategoryIndex: number = 0;
     private quizData: QuizData = { questions: [] };
     private state: QuizState = {
         currentQuestionIndex: 0,
@@ -31,7 +40,9 @@ class QuizApp {
         // Landing page elements
         landingContainer: document.getElementById('landing-container')!,
         startQuizBtn: document.getElementById('start-quiz-btn')! as HTMLButtonElement,
-        totalQuestionsSpan: document.getElementById('total-questions')!,
+        categoryInfo: document.getElementById('category-info')!,
+        prevCategoryBtn: document.getElementById('prev-category-btn')! as HTMLButtonElement,
+        nextCategoryBtn: document.getElementById('next-category-btn')! as HTMLButtonElement,
         
         // Quiz elements
         questionCounter: document.getElementById('question-counter')!,
@@ -43,12 +54,13 @@ class QuizApp {
         quizContainer: document.getElementById('quiz-container')!,
         resultsContainer: document.getElementById('results-container')!,
         finalScore: document.getElementById('final-score')!,
-        restartBtn: document.getElementById('restart-btn')! as HTMLButtonElement
+        restartBtn: document.getElementById('restart-btn')! as HTMLButtonElement,
+        quizHeader: document.querySelector('#quiz-header h1') as HTMLHeadingElement
     };
 
     constructor() {
         this.initializeEventListeners();
-        this.loadQuizData();
+        this.loadCategories();
     }
 
     private initializeEventListeners(): void {
@@ -56,28 +68,137 @@ class QuizApp {
         this.elements.nextBtn.addEventListener('click', () => this.nextQuestion());
         this.elements.finishBtn.addEventListener('click', () => this.finishQuiz());
         this.elements.restartBtn.addEventListener('click', () => this.restartQuiz());
+        
+        // Category navigation
+        this.elements.prevCategoryBtn.addEventListener('click', () => this.previousCategory());
+        this.elements.nextCategoryBtn.addEventListener('click', () => this.nextCategory());
     }
 
-    private async loadQuizData(): Promise<void> {
+    private async loadCategories(): Promise<void> {
         try {
-            console.log('Requesting quiz data...');
-            this.quizData = await ipcRenderer.invoke('load-quiz-data');
-            console.log('Received quiz data:', this.quizData);
+            console.log('Loading categories...');
+            const data = await ipcRenderer.invoke('load-quiz-data');
+            console.log('Received data:', data);
             
-            if (this.quizData.questions && this.quizData.questions.length > 0) {
-                console.log('Questions found:', this.quizData.questions.length);
-                this.shuffleQuestions();
-                this.setupLandingPage();
+            // Store all data but don't load questions yet
+            this.allCategoriesData = data;
+            
+            if (data && typeof data === 'object' && !Array.isArray(data)) {
+                this.categories = Object.keys(data).map(categoryName => {
+                    const categoryData = data[categoryName];
+                    let questionCount = 0;
+                    
+                    if (categoryData.questions && Array.isArray(categoryData.questions)) {
+                        questionCount = categoryData.questions.length;
+                    } else if (categoryData.question && Array.isArray(categoryData.question)) {
+                        questionCount = categoryData.question.length;
+                    }
+                    
+                    return {
+                        name: categoryName,
+                        questions: [], // Don't load questions yet
+                        count: questionCount
+                    };
+                }).filter(category => category.count > 0);
+            } else if (data && data.questions && Array.isArray(data.questions)) {
+                this.categories = [{
+                    name: "General",
+                    questions: [],
+                    count: data.questions.length
+                }];
             } else {
-                console.error('No questions in data:', this.quizData);
-                this.elements.totalQuestionsSpan.textContent = 'No questions available';
-                this.elements.startQuizBtn.innerHTML = '<span class="btn-text">Error loading quiz</span>';
+                throw new Error('Invalid data format');
+            }
+
+            if (this.categories.length > 0) {
+                console.log('Categories loaded:', this.categories.length);
+                console.log('Categories:', this.categories.map(c => `${c.name}: ${c.count} questions`));
+                
+                // Make sure landing container is visible
+                this.elements.landingContainer.style.display = 'flex';
+                
+                this.updateCategoryDisplay();
+                this.updateNavigationButtons();
+            } else {
+                throw new Error('No categories found');
             }
         } catch (error) {
-            console.error('Error loading quiz data:', error);
-            this.elements.totalQuestionsSpan.textContent = 'Error loading questions';
+            console.error('Error loading categories:', error);
+            this.elements.categoryInfo.textContent = 'Error loading categories';
             this.elements.startQuizBtn.innerHTML = '<span class="btn-text">Error loading quiz</span>';
+            this.elements.startQuizBtn.disabled = true;
+            
+            // Still show the landing container even on error
+            this.elements.landingContainer.style.display = 'flex';
         }
+    }
+
+    private updateCategoryDisplay(): void {
+        if (this.categories.length > 0) {
+            const currentCategory = this.categories[this.currentCategoryIndex];
+            this.elements.categoryInfo.textContent = `${currentCategory.name}: ${currentCategory.count} Questions`;
+            
+            this.elements.startQuizBtn.innerHTML = '<span class="btn-text">Start Quiz 🚀</span>';
+            this.elements.startQuizBtn.disabled = false;
+        }
+    }
+
+    private updateNavigationButtons(): void {
+        this.elements.prevCategoryBtn.disabled = this.currentCategoryIndex === 0;
+        this.elements.nextCategoryBtn.disabled = this.currentCategoryIndex === this.categories.length - 1;
+    }
+
+    private previousCategory(): void {
+        if (this.currentCategoryIndex > 0) {
+            this.currentCategoryIndex--;
+            this.updateCategoryDisplay();
+            this.updateNavigationButtons();
+        }
+    }
+
+    private nextCategory(): void {
+        if (this.currentCategoryIndex < this.categories.length - 1) {
+            this.currentCategoryIndex++;
+            this.updateCategoryDisplay();
+            this.updateNavigationButtons();
+        }
+    }
+
+    private startQuiz(): void {
+        const currentCategory = this.categories[this.currentCategoryIndex];
+        if (!currentCategory) return;
+
+        // Now load only the questions for the selected category
+        this.loadQuestionsForCategory(currentCategory.name);
+
+        if (this.elements.quizHeader) {
+            this.elements.quizHeader.textContent = `${currentCategory.name} Quiz`;
+        }
+
+        this.elements.landingContainer.style.display = 'none';
+        this.elements.quizContainer.style.display = 'block';
+        
+        this.resetQuizState();
+        this.displayCurrentQuestion();
+        this.updateQuestionCounter();
+    }
+
+    private loadQuestionsForCategory(categoryName: string): void {
+        const categoryData = this.allCategoriesData[categoryName];
+        let questions = [];
+        
+        if (categoryData) {
+            if (categoryData.questions && Array.isArray(categoryData.questions)) {
+                questions = categoryData.questions;
+            } else if (categoryData.question && Array.isArray(categoryData.question)) {
+                questions = categoryData.question;
+            }
+        }
+        
+        this.quizData.questions = [...questions];
+        this.shuffleQuestions();
+        
+        console.log(`Loaded ${questions.length} questions for category: ${categoryName}`);
     }
 
     private shuffleQuestions(): void {
@@ -87,21 +208,6 @@ class QuizApp {
             [this.quizData.questions[j], this.quizData.questions[i]];
         }
         console.log('Questions shuffled');
-    }
-
-    private setupLandingPage(): void {
-        this.elements.totalQuestionsSpan.textContent = `${this.quizData.questions.length} questions`;
-        this.elements.startQuizBtn.innerHTML = '<span class="btn-text">Start Quiz 🚀</span>';
-        this.elements.startQuizBtn.disabled = false;
-    }
-
-    private startQuiz(): void {
-        this.elements.landingContainer.style.display = 'none';
-        this.elements.quizContainer.style.display = 'block';
-        
-        this.resetQuizState();
-        this.displayCurrentQuestion();
-        this.updateQuestionCounter();
     }
 
     private resetQuizState(): void {
@@ -129,6 +235,7 @@ class QuizApp {
             answerElement.addEventListener('click', () => this.selectAnswer(key, answerElement));
             this.elements.answersContainer.appendChild(answerElement);
         });
+        
         this.elements.nextBtn.disabled = true;
         this.updateButtonVisibility();
     }
@@ -143,6 +250,7 @@ class QuizApp {
         }
 
         this.elements.nextBtn.disabled = this.state.selectedAnswers.length === 0;
+        this.elements.finishBtn.disabled = this.state.selectedAnswers.length === 0;
     }
 
     private nextQuestion(): void {
@@ -174,6 +282,7 @@ class QuizApp {
 
         let isCorrect = this.state.selectedAnswers.length === correctAnswers.length &&
             this.state.selectedAnswers.every(answer => correctAnswers.includes(answer));
+        
         if (isCorrect) {
             this.state.score++;
         }
@@ -244,7 +353,7 @@ class QuizApp {
     }
 }
 
+// Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded, initializing QuizApp...');
     new QuizApp();
 });
